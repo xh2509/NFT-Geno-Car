@@ -1,0 +1,45 @@
+
+.nft-site-color-mode .dark-mode {
+    background-color: #414141;
+}
+
+.nft-site-color-mode .light-mode
+{
+    background-color: #5F95FC;
+}
+
+.black-bg,
+.nft-hero-area
+{
+    background-color: #FFFFFF ;
+}
+
+.off-black-bg
+{
+    background-color: #F2F2F2;
+}
+.footer-widget ul li a:before {
+    background-color: #000;
+}
+
+.footer-widget p, .footer-widget a {
+    color: #000;
+}
+.footer-social-icon-list a,
+.filter-item-heading,
+.nft-user-name
+{
+    color: #fff;
+}
+body, h1, h2, h3, h4, h5, h6, 
+.boxed-btn:hover, 
+.nft-hero-btn.boxed-btn:hover, 
+.nft-hero-btn.style-2 {
+    color: #000;
+}
+.product-collection-footer .boxed-btn:hover {
+    color: #fff;
+}
+.single-create-sell-item-title {
+    color: #A1A1A1;
+}

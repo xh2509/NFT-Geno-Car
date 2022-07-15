@@ -1,0 +1,217 @@
+
+
+/* =============================
+======== Animation CSS =========
+===============================*/
+/* Section Title Before */
+.section-title-before {
+    animation: animateSectionTitleBefore 2s linear infinite;
+}
+
+@keyframes animateSectionTitleBefore {
+    0% {
+        transform: scale(.5);
+        opacity: .5;
+    } 10% {
+        transform: scale(.5);
+        opacity: 1;
+    }  100% {
+        transform: scale(1.2);
+        opacity: .5;
+    } 
+}
+
+/* breadcrumb-img animation */
+.breadcrumb-img .rotate-img {
+    animation: linear 50s breadcrumbImg infinite;
+}
+@keyframes breadcrumbImg {
+    0% {
+        
+    } 100% {
+        transform: rotate(360deg);
+    } 
+}
+/* Single item love button */
+span.love-react.active i {
+    animation-name: animateLoveReact;
+    animation-duration: 1s;
+}
+
+@keyframes animateLoveReact {
+    0% {
+        
+    } 100% {
+        font-size: 100px;
+        opacity: 0;
+    } 
+}
+/* Hero area animation shape */
+.nft-hero-area .animate-shape-1 {
+    position: absolute;
+    left: 0;
+    top: 250px;
+    z-index: -1;
+    animation: linear 20s animateShapeOne infinite;
+}
+.nft-hero-area .animate-shape-2 {
+    position: absolute;
+    left: 80px;
+    z-index: -1;
+    top: 480px;
+    animation: linear 25s animateShapeTwo infinite;
+}
+
+.nft-hero-area .animate-shape-3 {
+    position: absolute;
+    bottom: 120px;
+    right: 320px;
+    z-index: -1;
+    animation: linear 25s animateShapeThree infinite;
+}
+
+.nft-hero-area .animate-shape-4 {
+    position: absolute;
+    left: 560px;
+    top: 130px;
+    animation: animateShapeOne 20s linear infinite;
+    z-index: -1;
+}
+
+.nft-hero-area .animate-shape-5 {
+    position: absolute;
+    right: 200px;
+    top: 200;
+    animation: animateShapeOne 20s linear infinite;
+    z-index: -1;
+}
+
+
+@keyframes animateShapeOne {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(73px, -1px) rotate(36deg);
+    }
+
+    40% {
+        transform: translate(141px, 72px) rotate(72deg);
+    }
+
+    60% {
+        transform: translate(83px, 122px) rotate(108deg);
+    }
+
+    80% {
+        transform: translate(-40px, 72px) rotate(144deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+
+@-webkit-keyframes animateShapeOne {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        -webkit-transform: translate(73px, -1px) rotate(36deg);
+    }
+
+    40% {
+        -webkit-transform: translate(141px, 72px) rotate(72deg);
+    }
+
+    60% {
+        -webkit-transform: translate(83px, 122px) rotate(108deg);
+    }
+
+    80% {
+        -webkit-transform: translate(-40px, 72px) rotate(144deg);
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+
+@keyframes animateShapeTwo {
+    0% {
+        transform: translate(165px, -179px);
+    }
+
+    100% {
+        transform: translate(-346px, 617px);
+    }
+}
+
+
+@-webkit-keyframes animateShapeTwo {
+    0% {
+        -webkit-transform: translate(165px, -179px);
+    }
+
+    100% {
+        -webkit-transform: translate(-346px, 617px);
+    }
+}
+
+
+@keyframes animateShapeThree {
+    0% {
+        transform: translate(61px, -99px) rotate(0deg);
+    }
+
+    21% {
+        transform: translate(4px, -190px) rotate(38deg);
+    }
+
+    41% {
+        transform: translate(-139px, -200px) rotate(74deg);
+    }
+
+    60% {
+        transform: translate(-263px, -164px) rotate(108deg);
+    }
+
+    80% {
+        transform: translate(-195px, -49px) rotate(144deg);
+    }
+
+    100% {
+        transform: translate(-1px, 0px) rotate(180deg);
+    }
+}
+
+
+@-webkit-keyframes animateShapeThree {
+    0% {
+        -webkit-transform: translate(61px, -99px) rotate(0deg);
+    }
+
+    21% {
+        -webkit-transform: translate(4px, -190px) rotate(38deg);
+    }
+
+    41% {
+        -webkit-transform: translate(-139px, -200px) rotate(74deg);
+    }
+
+    60% {
+        -webkit-transform: translate(-263px, -164px) rotate(108deg);
+    }
+
+    80% {
+        -webkit-transform: translate(-195px, -49px) rotate(144deg);
+    }
+
+    100% {
+        -webkit-transform: translate(-1px, 0px) rotate(180deg);
+    }
+}

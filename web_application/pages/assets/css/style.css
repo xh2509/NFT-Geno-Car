@@ -1,0 +1,2712 @@
+/*
+======================================
+======================================
+更多精品模板：http://www.bootstrapmb.com
+@File: NFT Theme Styles
+
+* This file contains the styling for the actual theme, 
+this is the file you need to edit to change the look 
+of the theme.
+
+This files contents are outlined below
+======================================
+======================================
+    *** CSS Index ***
+    -----------------
+    ** - Base CSS
+    ** - Default CSS
+    ** - Header Area CSS
+    ** - Hero Area CSS
+    ** - Biddding live area Css
+    ** - Create and Sell area CSS
+    ** - Grid Box CSS
+    ** - Newest Items Area CSS
+    ** - Top Seller Area CSS
+    ** - Explore Product Area CSS
+    ** - Top Collection Area CSS
+    ** - About Page CSS 
+    ** - Our Client area CSS
+    ** - Our Client Feedback Css CSS
+    ** - Breadcrumb Area Css
+    ** - Our Member Css
+    ** - Explore Product Tab Area CSS - Home 02
+    ** - Newest Item Slider Css : Home 2
+    ** - Product slider
+    ** - Product Details Page CS
+    ** - Create NFT Page CSS
+    ** - Upload Variant Page CSS
+    ** - Creators Page CSS
+    ** - Author Page CSS
+    ** - Our Collection Page CSS Login + Sign Up Form CSS
+    ** - Blog Post CSS
+    ** - Sidebar CSS
+    ** - Privacy Policy + Support & FAQ CSS
+    ** - Dashboard Settings CSS
+    ** - Scroll Top CSS
+    ** - Home Version One CSS
+    ** - Home-2 Page CSS
+    ** - Footer CSS
+    ** - Background image CSS
+=======================================
+*/
+
+
+/*==================================== - Base CSS =====================================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ .alignleft {
+     float: left;
+     margin-right: 15px;
+}
+ .alignright {
+     float: right;
+     margin-left: 15px;
+}
+ .aligncenter {
+     display: block;
+     margin: 0 auto 15px;
+}
+ a:focus {
+     outline: 0 solid 
+}
+ img {
+     max-width: 100%;
+     height: auto;
+}
+ h1, h2, h3, h4, h5, h6 {
+     margin: 0 0 15px;
+     font-weight: 700;
+     color: #fff;
+}
+ body {
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 25px;
+     color: #A1A1A1;
+}
+ a, a:hover {
+     text-decoration: none;
+     transition: .3s;
+     color: #A1A1A1;
+}
+ input[type=search], button[type="submit"]{
+     border: none;
+     outline: none;
+}
+ input:focus{
+     outline: none;
+}
+ ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+/*==================================== Default CSS =====================================*/
+ section {
+     padding: 140px 0;
+     overflow-x: hidden;
+}
+ .off-black-bg {
+     background-color: #131313;
+}
+ .black-bg {
+     background-color: #060606;
+}
+ .nft-highlight-color {
+     color: #F9C200;
+}
+ .highlight-color-1 {
+     color: #F9C204;
+}
+ .nft-highlight-bg-color {
+     background-color: #F9C200;
+}
+ .sub-title {
+     color: #F9C200;
+     font-size: 20px;
+     line-height: 35px;
+     margin-bottom: 30px;
+}
+ .section-title {
+     margin-bottom: 0;
+     font-size: 35px;
+     line-height: 19px;
+}
+ .section-title .section-title-before {
+     background-color: #DE2B36;
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     display: inline-block;
+     border: 4px solid #0000008f;
+     margin-bottom: 2px;
+}
+ span.section-title-after-icon {
+     font-size: 20px;
+     display: inline-block;
+     margin-left: 12px;
+}
+ .boxed-btn {
+     color: #000;
+     background-color: #F9C200;
+     display: inline-block;
+     padding: 14px 35px;
+     font-size: 18px;
+     line-height: 28px;
+     font-weight: 500;
+     border-radius: 5px;
+     text-align: center;
+     border: 1px solid #F9C204;
+}
+.boxed-btn:hover {
+    color: #000;
+} 
+
+button.boxed-btn {
+     transition: .3s;
+}
+ .mb-25 {
+     margin-bottom: 25px;
+}
+ .mb-50 {
+     margin-bottom: 50px;
+}
+ .mb-60 {
+     margin-bottom: 60px;
+}
+ .mb-70 {
+     margin-bottom: 70px;
+}
+ .mb-90 {
+     margin-bottom: 90px;
+}
+ .mt-40 {
+     margin-top: 40px;
+}
+ .mt-60 {
+     margin-top: 60px;
+}
+ .mt-100 {
+     margin-top: 100px;
+}
+ .mt-140 {
+     margin-top: 140px;
+}
+ .lh-24 {
+     line-height: 24px;
+}
+ .lowlight-bg-color {
+     background-color: #131313;
+}
+ .nft-border {
+     border: 1px solid #414141;
+     border-radius: 5px;
+}
+ .nft-box-padding {
+     padding: 50px;
+}
+/* ================= Header area css ====================*/
+
+/* header top css */
+ .header-top-area p {
+     margin: 0;
+}
+.header-top-area {
+    background-color: #262626;
+    color: #fff;
+    font-size: 12px;
+}
+ .nft-promotion-time span {
+     font-weight: 500;
+     background-color: #F9C200;
+     color: #333;
+     padding: 6px;
+     border-radius: 2px;
+     margin: 0 3px;
+}
+ .nft-social-icons {
+     margin: 0 50px;
+}
+ .nft-social-icons a {
+     margin: 0 4px;
+     color: #434343;
+}
+ .nft-social-icons a:hover {
+     color: #F9C200;
+}
+ .nft-site-lang {
+     background-color: #DE2B36;
+     padding: 10px 22px;
+     cursor: pointer;
+}
+ .nft-site-lang a {
+     display: inline-block;
+     color: #fff;
+     padding-right: 10px;
+}
+ .nft-site-lang span {
+     font-size: 16px;
+}
+/* Header Bottom css */
+ .header-bottom-area {
+     background-color: #060606;
+     border-bottom: 1px solid #262626;
+     position: relative;
+}
+.logo {
+    z-index: 12;
+}
+ .nft-site-color-mode {
+     background-color: #262626;
+     padding: 7px 3px;
+     border-radius: 30px;
+     border: 1px solid #3c3c3c;
+}
+ .nft-site-color-mode {
+     display: none;
+}
+ .nft-site-color-mode a {
+     display: inline-block;
+     background-color: #F9C200;
+     border-radius: 50%;
+     text-align: center;
+     width: 34px;
+     height: 34px;
+     padding-top: 4px;
+     margin: 0 8px;
+}
+ .nft-site-color-mode .light-mode {
+     background-color: #414141;
+}
+ .nft-search-bar input {
+     background-color: #262626;
+     height: 50px;
+     margin: 0 10px;
+     width: 200px;
+     border: 1px solid #3c3c3c;
+     border-radius: 5px;
+     padding-left: 18px;
+     color: #7B7B7B;
+}
+ .nft-user span.nft-user, .nft-user span.nft-user-menu {
+     display: inline-block;
+     height: 45px;
+     width: 45px;
+     border: 1px solid #3c3c3c;
+     border-radius: 50%;
+     margin: 0 4px;
+}
+ .nft-user-menu {
+     cursor: pointer;
+}
+ .nft-user-menu-wrapper {
+     background-color: #333;
+     width: 260px;
+     position: absolute;
+     top: 170px;
+     right: 301px;
+     opacity: 0;
+     visibility: hidden;
+     transition: .6s;
+     padding: 25px 10px;
+     border-radius: 5px;
+     z-index: 1000;
+}
+ .nft-user-menu-wrapper.active {
+     opacity: 1;
+     visibility: visible;
+     top: 92px;
+}
+ h6.nft-user-name {
+     margin-left: 18px;
+}
+ .nft-user-menu-wrapper a {
+     display: block;
+     color: #fff;
+     padding: 5px 19px;
+     font-size: 15px;
+}
+ .nft-user-menu-wrapper a:hover {
+     color: #F9C200;
+}
+ .nft-user-menu-wrapper a i {
+     margin-right: 10px;
+}
+/* Header -> Main Manu css */
+ .nft-main-menu ul li {
+     display: inline-block;
+}
+ .nft-main-menu ul li a {
+     display: block;
+     color: #fff;
+     padding: 32px 12px;
+     position: relative;
+}
+ .nft-main-menu ul li:hover > a {
+     color: #DE2B36;
+}
+ .nft-main-menu ul li a:after {
+     position: absolute;
+     height: 0px;
+     width: 2px;
+     bottom: 27px;
+     left: 50%;
+     background-image: linear-gradient(#060606, #DE2B36);
+     content: "";
+     opacity: 0;
+     visibility: hidden;
+     transition: .3s;
+     margin-left: -1px;
+}
+ .nft-main-menu ul li:hover a:after {
+     opacity: 1;
+     visibility: visible;
+     height: 10px 
+}
+/* drop down menu */
+ .nft-main-menu ul li ul li a:after {
+     display: none;
+}
+ .nft-main-menu ul li {
+     position: relative;
+}
+ .nft-main-menu ul li ul {
+     position: absolute;
+     left: 0;
+     top: 0;
+     background-color: #333;
+     width: 201px;
+     z-index: 99;
+}
+ .nft-main-menu ul li ul li {
+     padding: 0px 15px;
+     display: block;
+}
+ .nft-main-menu ul li ul ul {
+     left: 200px;
+}
+ .nft-main-menu ul li ul.drop-down-menu {
+     top: 89px;
+     text-align: left;
+}
+ .nft-main-menu ul ul {
+     border-radius: 6px;
+     padding: 15px 0;
+     transition: .3s;
+}
+ .nft-main-menu ul ul {
+     opacity: 0;
+     visibility: hidden;
+}
+ .nft-main-menu ul li:hover > ul {
+     opacity: 1;
+     visibility: visible;
+}
+ .nft-main-menu ul li ul li a{
+     padding: 6px 12px;
+}
+/* Mega Menu */
+ .nft-megamenu {
+     position: absolute;
+     top: 90px;
+     left: -359px;
+     width: 915px;
+     background-color: #333;
+     z-index: 99;
+     border-radius: 10px;
+     opacity: 0;
+     visibility: hidden;
+     transition: .3s;
+     padding: 25px;
+}
+ ul.mega-menu-item {
+     opacity: 1 !important;
+     visibility: hidden;
+     position: inherit !important;
+}
+ .nft-main-menu ul li:hover ul.mega-menu-item {
+     visibility: visible !important;
+}
+ .nft-main-menu ul li:hover ul.mega-menu-item {
+     opacity: 1;
+}
+ .nft-main-menu ul li:hover > .nft-megamenu {
+     opacity: 1;
+     visibility: visible;
+}
+ .single-megamenu {
+     width: 21%;
+}
+ .nft-megamenu-box {
+     display: flex;
+     justify-content: space-between;
+}
+ .mega-menu-item-title {
+     margin-left: 25px;
+     color: #F9C200;
+}
+ .single-megamenu {
+     position: relative;
+}
+ .single-megamenu:before {
+     position: absolute;
+     top: 0;
+     left: -35px;
+     content: "";
+     height: 100%;
+     width: 1px;
+     background-color: #484747;
+     z-index: 999;
+}
+ .single-megamenu:nth-child(1):before {
+     opacity: 0;
+     visibility: hidden;
+}
+/*-- Moblie Menu --*/
+ #mobile-menu-wrap {
+     display: none;
+     position: relative;
+}
+ .slicknav_menu {
+     background-color: transparent;
+     width: 100%;
+     position: absolute;
+     right: 0;
+     z-index: 11;
+     top: -53px;
+     padding: 0;
+}
+ .slicknav_btn{
+     display: inline-block;
+     margin: 0;
+     background-color: transparent;
+}
+/*
+.slicknav_nav .slicknav_row:hover {
+    color: #000;
+}
+.slicknav_open > a {
+    color: #000;
+}
+.slicknav_open a a {
+    color: #000;
+}*/
+ .slicknav_nav{
+     text-align: left;
+}
+ .slicknav_nav > ul {
+     padding: 15px;
+     border-radius: 6px;
+     background-color: #333;
+}
+ .slicknav_btn{
+     margin-bottom: 14px;
+     color: #fff;
+}
+ .slicknav_menu h4, .slicknav_menu h5{
+     color: #fff;
+}
+ .slicknav_menu h5{
+     margin: 0;
+     margin-top: 5px;
+}
+ .slicknav_nav .boxed-btn{
+     display: inline-block;
+}
+/* ================= Hero area css ====================*/
+ .nft-hero-area {
+     background-color: #060606;
+     height: 800px;
+     overflow: hidden;
+     position: relative;
+     z-index: 10;
+}
+ .hero-title {
+     font-size: 55px;
+     line-height: 70px;
+     margin-bottom: 25px;
+}
+ .hero-left {
+     font-size: 18px;
+     color: #fff;
+     line-height: 28px;
+}
+ .nft-hero-btn.boxed-btn {
+     color: #000;
+     padding: 14px 25px;
+}
+.nft-hero-btn.boxed-btn:hover, .nft-hero-btn.style-2 {
+     background-color: transparent;
+     color: #fff;
+}
+ .nft-text-stroke {
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: #F9C200;
+     -webkit-text-fill-color: transparent;
+}
+ .nft-hero-btn.style-2 {
+     margin-left: 15px;
+}
+ .nft-hero-btn.style-2:hover {
+     background-color: #F9C200;
+     color: #000;
+}
+ .hero-left p {
+     margin-bottom: 45px;
+}
+ .hero-img img {
+     border-radius: 50%;
+     border: 22px solid #262626;
+}
+/* ============================= Biddding live area Css ================================*/
+ .bidding-box-bg {
+     height: 176px;
+     width: 100%;
+     background-color: #ddd;
+     background-position: top center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 9px;
+     position: relative;
+}
+ .single-bidding-box {
+     padding: 20px;
+     background-color: #262626;
+     border: 1px solid #414141;
+     border-radius: 5px;
+     padding-bottom: 30px;
+     margin: 12px 0;
+}
+ .explore-product-tab-area .single-bidding-box {
+     width: 23.183%;
+     margin: 12px;
+}
+ .item-click-menu, .love-react {
+     height: 24px;
+     width: 24px;
+     background-color: #F9C200;
+     border-radius: 50%;
+     font-size: 12px;
+     display: block;
+     text-align: center;
+     margin: 16px;
+     color: #000;
+     cursor: pointer;
+     line-height: 27px;
+}
+ .love-react {
+     color: #fff;
+     background-color: #262626;
+     transition: 1s;
+}
+ .love-react.active, .love-react:hover{
+     color: #DE2B36;
+}
+ .bidding-duration ul {
+     text-align: center;
+     border-radius: 5px;
+     margin-top: 10px;
+}
+ .bidding-duration ul li {
+     display: inline-block;
+     padding: 7px 14px;
+     color: #333;
+     font-weight: 700;
+     text-align: center;
+     line-height: 19px;
+     font-size: 16px;
+}
+ .bidding-duration ul li span {
+     display: block;
+}
+ .bidding-duration ul li span.count-text {
+     font-weight: 400;
+     font-size: 13px;
+}
+ .bidding-box-bg .boxed-btn {
+     height: 39px;
+     width: 103px;
+     font-size: 14px;
+     font-weight: 400;
+     padding: 6px 0;
+}
+ .bidding-box-bg .boxed-btn {
+     height: 40px;
+     width: 104px;
+     font-size: 14px;
+     font-weight: 400;
+     padding: 6px 0;
+     position: absolute;
+     display: inline-block;
+     left: 0;
+     top: 60%;
+     margin-top: -20px;
+     left: 50%;
+     margin-left: -52px;
+     opacity: 0;
+     visibility: hidden;
+     z-index: 1;
+}
+ .single-bidding-box:hover .boxed-btn {
+     top: 50%;
+     background-color: #F9C200;
+     opacity: 1;
+     visibility: visible;
+     color: #000;
+}
+ .bidding-item-footer-info .boxed-btn {
+     font-size: 13px;
+     line-height: 22px;
+     padding: 0px 9px;
+     font-weight: 400;
+     border-radius: 3px;
+}
+ ul.item-click-menu-wrapper {
+     position: absolute;
+     top: 60px;
+     background-color: #F9C200;
+     padding: 5px 10px;
+     border-radius: 4px;
+     left: 17px;
+     opacity: 0;
+     visibility: hidden;
+     transition: .3s;
+     padding: 6px 0px;
+     border-radius: 2px;
+}
+ ul.item-click-menu-wrapper.active{
+     opacity: 1;
+     visibility: visible;
+     z-index: 2;
+     top: 50px;
+}
+ ul.item-click-menu-wrapper li {
+     line-height: 18px;
+}
+ ul.item-click-menu-wrapper li a {
+     color: #333;
+     font-size: 12px;
+     display: block;
+     padding: 0px 12px;
+}
+ ul.item-click-menu-wrapper li a i{
+     width: 18px;
+}
+ span.item-click-menu:hover ul.item-click-menu-wrapper {
+     top: 100px;
+}
+ .bidding-user {
+     color: #A1A1A1;
+}
+ .bidding-user:hover {
+     color: #DE2B36;
+}
+ .bidding-info {
+     color: #A1A1A1;
+     font-size: 15px;
+     font-weight: 500;
+     line-height: 18px;
+     margin-bottom: 28px;
+}
+ .bidding-info span {
+     font-size: 13px;
+     color: #A1A1A1;
+     display: block;
+     font-weight: 400;
+}
+ span.price-number {
+     font-size: 15px;
+     font-weight: 700;
+}
+
+.bidding-product-name a{
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    color: #A1A1A1;
+    transition: .3s;
+    display: block;
+    font-weight: 700;
+}
+.single-bidding-box:hover .bidding-product-name a{
+    color: #DE2B36;
+} 
+ .bidding-item-footer-info {
+     color: #A1A1A1;
+     font-size: 13px;
+}
+ .bidding-item-info img {
+     background-color: #000;
+     border-radius: 50%;
+     margin-right: 10px 
+}
+
+/* =============================  Create and Sell area Css ================================*/
+ .single-create-sell-item {
+     background-color: #131313;
+     padding: 20px;
+     border-radius: 5px;
+     color: #A1A1A1;
+}
+ .single-create-sell-item-border {
+     border: 1px solid #414141;
+     border-radius: 4px;
+     z-index: 1;
+     position: relative;
+}
+ .item-number {
+     position: absolute;
+     left: -15px;
+     top: -15px;
+     height: 75px;
+     width: 88px;
+     background-color: #242424;
+     border-radius: 19px 0 0px 0;
+     border: 14px solid #131313;
+}
+ .item-number span {
+     font-size: 25px;
+     font-weight: 700;
+     color: #414141;
+}
+ .single-create-sell-item-icon {
+     margin-top: 30px;
+     margin-bottom: 33px;
+}
+ .single-create-sell-item-title {
+     font-size: 20px;
+     font-weight: 700;
+     line-height: 19px;
+     transition: .3s;
+     margin-bottom: 20px;
+}
+ .single-create-sell-item:hover .single-create-sell-item-title{
+     color: #F9C200 
+}
+ p.single-create-sell-item-desc {
+    margin-bottom: 23px;
+}
+ .single-create-sell-item-border:before, .single-create-sell-item-border:after {
+     position: absolute;
+     content: "";
+     right: -2px;
+     bottom: -2px;
+     height: 102px;
+     width: 3px;
+     background-color: #707070;
+     border-radius: 5px;
+     opacity: 1;
+     transition: .3s;
+}
+ .single-create-sell-item-border:after {
+     width: 102px;
+     height: 3px;
+}
+ .single-create-sell-item:hover .single-create-sell-item-border:before, .single-create-sell-item:hover .single-create-sell-item-border:after {
+     background-color: #F9C200;
+}
+/* ========================== Grid Box Css =========================*/
+ .item1 {
+     grid-area: img1;
+}
+ .item2 {
+     grid-area: img2;
+}
+ .item3 {
+     grid-area: img3;
+}
+ .item4 {
+     grid-area: img4;
+}
+ .product-collection-box.hero-section {
+     display: grid;
+     grid-template-areas: 'img1 img1 img1 img3 img3 img3' 'img2 img2 img2 img3 img3 img3' 'img2 img2 img2 img4 img4 img4';
+     gap: 24px;
+}
+ .product-collection-box {
+     display: grid;
+     grid-template-areas: 'img1 img1 img1 img3 img3 img3' 'img1 img1 img1 img4 img4 img4' 'img2 img2 img2 img4 img4 img4';
+     gap: 10px;
+}
+ .product-collection-box .item1, .product-collection-box .item2 {
+     text-align: right;
+}
+ .product-collection-box > div img {
+     border-radius: 10px;
+     width: 100%;
+}
+/* ============================= Newest Items Area Css ================================*/
+ .bidding-user.new-item:hover {
+     color: #F9C200;
+}
+/* ============================= Top Seller Area Css ================================*/
+ .single-top-seller {
+     background-color: #131313;
+     display: block;
+     padding: 10px;
+     border-radius: 6px;
+     margin: 12px 0;
+}
+ .single-top-seller-border {
+     border: 1px solid #414141;
+     padding: 13px;
+     position: relative;
+     border-radius: 5px;
+}
+ .seller-rank-wrapper {
+     position: absolute;
+     right: -9px;
+     top: -9px;
+     width: 46px;
+     height: 39px;
+     background-color: #242424;
+     text-align: center;
+     border: 7px solid #131313;
+     border-radius: 0px 10px 0px 0px;
+}
+ span.seller-rank-number {
+     font-size: 11px;
+     font-weight: 700;
+     color: #414141;
+     line-height: 8px;
+}
+ .seller-author-info span {
+     display: block;
+     font-size: 15px;
+     font-weight: 700;
+     color: #A1A1A1;
+     line-height: 22px;
+     transition: .3s;
+}
+ .single-top-seller:hover span.seller-autor-name {
+     color: #F9C200;
+}
+ span.seller-author-sell-amount {
+     font-size: 11px;
+     font-weight: 400;
+}
+ .seller-author-info {
+     margin-left: 28px;
+}
+ .seller-author-img {
+     background-color: #000;
+     border-radius: 50%;
+     height: 66px;
+     width: 66px;
+     position: relative;
+     text-align: center;
+}
+ span.seller-author-badge {
+     position: absolute;
+     bottom: 6px;
+     right: 0;
+     color: #000;
+     background-color: #F9C200;
+     height: 14px;
+     width: 14px;
+     font-size: 8px;
+     text-align: center;
+     line-height: 14px;
+     border-radius: 50%;
+}
+ .single-top-seller-border:before, .single-top-seller-border:after {
+     position: absolute;
+     bottom: -1px;
+     right: -1px;
+     content: "";
+     width: 2px;
+     height: 38px;
+     background-color: #707070;
+     border-radius: 3px;
+     transition: .3s;
+}
+ .single-top-seller-border:after {
+     height: 2px;
+     width: 38px;
+}
+ .single-top-seller:hover .single-top-seller-border:before, .single-top-seller:hover .single-top-seller-border:after {
+     background-color: #F9C200;
+}
+/* ============================= Explore Product Area CSS ================================*/
+ .filter-item-box {
+     width: 18.182%;
+     background-color: #414141;
+     padding: 0;
+     border-radius: 6px;
+     margin: 0 12px;
+     position: relative;
+}
+ .filter-item-heading {
+     display: block;
+     background-color: #262626;
+     padding: 14px 30px;
+     border-radius: 5px;
+     font-size: 13px;
+     line-height: 19px;
+}
+ .filter-item-current {
+     color: #fff;
+     cursor: pointer;
+}
+ .filter-item-heading, .filter-item-current, .filter-item-list-dropdown {
+     padding: 11px 30px;
+}
+ .filter-item-list-icon {
+     padding-left: 15px;
+     cursor: pointer;
+}
+ ul.product-pagination li a {
+     height: 55px;
+     width: 55px;
+     border: 1px solid #707070;
+     display: inline-block;
+     text-align: center;
+     border-radius: 50%;
+     margin: 0 6px;
+     line-height: 54px;
+}
+ ul.product-pagination li {
+     display: inline;
+}
+ ul.product-pagination li:hover a, ul.product-pagination li.active a {
+     color: #000;
+     background-color: #F9C200;
+}
+/* ============================= Top Collection Area CSS ================================*/
+ .product-collection-wrapper {
+     background-color: #262626;
+     padding: 14px;
+     border-radius: 6px;
+     border: 1px solid #414141;
+}
+ .product-collection-footer {
+     padding-top: 15px;
+}
+ .product-collection-name {
+     line-height: 16px;
+     font-weight: 700;
+     color: #A1A1A1;
+}
+ .product-collection-info span {
+     display: block;
+}
+ .product-collection-stock {
+     font-size: 12px;
+     line-height: 16px;
+     color: #F9C200;
+}
+ .product-collection-footer .boxed-btn {
+     padding: 4px 9px;
+     font-size: 10px;
+     font-weight: 400;
+     line-height: 13px;
+     border-radius: 4px;
+}
+ .filter-item-list-dropdown {
+     transition: .5s;
+     opacity: 0;
+     position: absolute;
+     background-color: #414141;
+     width: 100%;
+     z-index: 999999;
+     border-radius: 6px;
+     visibility: hidden;
+     transform: translateY(-22px);
+}
+ .filter-item-list-dropdown.active {
+     opacity: 1;
+     transform: translateY(-10px);
+     visibility: visible;
+}
+ .filter-item-list-dropdown ul li a {
+     color: #fff;
+     padding: 2px 0;
+     display: inline-block;
+}
+ .filter-item-list-dropdown ul li:hover a {
+     color: #F9C200;
+}
+/* ============================== About Page CSS ================================ */
+ .nft-ceo-name p {
+     font-size: 18px;
+     line-height: 20px;
+     margin-bottom: 0;
+     font-weight: 500;
+}
+ .ceo-img {
+     height: 67px;
+     width: 67px;
+     background-color: #131313;
+     border-radius: 50%;
+}
+ .about-ceo-info {
+     margin-top: 35px;
+     border-top: 1px solid #A1A1A1;
+     padding-top: 40px;
+}
+ .nft-ceo-name span {
+     font-size: 13px;
+     line-height: 20px;
+}
+ .nft-ceo-name {
+     margin: 7px 58px 0px 21px;
+}
+/* ============================= Our Client area CSS ================================*/
+
+ .client-box.single-top-seller {
+     background-color: #1D1D1D;
+}
+ .client-box .seller-rank-wrapper {
+     border: 7px solid #1D1D1D;
+}
+ .client-img {
+     padding: 14px;
+}
+ .client-img img {
+     filter: grayscale(1);
+     transition: .3s;
+}
+ .client-box:hover .client-img img {
+     filter: grayscale(0);
+}
+
+/* ============================= Our Client Feedback Css CSS ================================*/
+ .single-client-feedback-wrapper {
+     width: 424px;
+     background-color: #1D1D1D;
+     border-radius: 5px;
+     padding: 18px;
+}
+ .single-client-feedback-inner {
+     border: 1px solid #414141;
+     border-radius: 5px;
+     padding: 16px 18px 16px 18px;
+}
+ .client-author-info-box {
+     position: relative;
+}
+ .client-author-name {
+     font-size: 20px;
+     font-weight: 700;
+     line-height: 27px;
+     margin-bottom: 0;
+     margin-top: 5px;
+     transition: .3s;
+}
+ .single-client-feedback-wrapper:hover .client-author-name {
+     color: #F9C200;
+}
+ .client-author-desig {
+     font-size: 14px;
+     line-height: 27px;
+}
+ .client-author-name-box {
+     margin-left: 30px;
+}
+ .client-feedback-icon {
+     position: absolute;
+     right: 0;
+}
+ .client-feedback-icon img {
+     filter: grayscale(1);
+     opacity: .1;
+     transition: .3s;
+}
+ .single-client-feedback-wrapper:hover .client-feedback-icon img{
+     filter: grayscale(0);
+     opacity: 1;
+}
+ .client-feedback-description {
+     border-top: 1px solid #414141;
+     padding-top: 25px;
+     margin-top: 28px;
+}
+
+/* ============================= Breadcrumb Area Css ================================*/
+ .breadcrumb-area {
+     height: 400px;
+}
+ .page-title {
+     font-size: 35px;
+     line-height: 50px;
+}
+ .current-page {
+     color: #F9C200;
+}
+ .page-title-seperator {
+     display: inline-block;
+     margin: 0 10px;
+}
+ a.home {
+     padding: 10px 0;
+}
+ a.home:hover {
+     color: #F9C200;
+}
+ .breadcrumb-img {
+     position: relative;
+}
+ .breadcrumb-img .breadcrumb-abs-img {
+     position: absolute;
+     right: 148px;
+     top: 100px;
+}
+
+/* ============================= Our Member Css ================================*/
+ .single-member-box {
+     background-color: #131313;
+     border-radius: 5px;
+     margin: 6px 0;
+}
+ .single-member-box:hover .single-member-img img{
+     transform: scale(1.3);
+}
+ .single-member-img img {
+     transition: .5s;
+     width: 100%;
+     transform: scale(1.01);
+}
+ .single-member-img {
+     border-radius: 6px;
+    overflow: hidden;
+}
+ .single-member-info {
+     padding: 25px;
+}
+ .member-name {
+     font-size: 20px;
+     line-height: 30px;
+     margin-bottom: 5px;
+     color: #A1A1A1;
+     transition: .3s;
+}
+ .single-member-box:hover .member-name {
+     color: #F9C200;
+}
+ .single-company-info-box {
+     width: 20%;
+     background-color: #131313;
+     margin: 0 12px;
+     padding: 42px 0;
+}
+ .company-info-icon {
+     height: 64px;
+     width: 64px;
+     display: inline-block;
+     background-color: #060606;
+     padding-top: 18px;
+}
+ .company-details-number {
+     font-size: 35px;
+     font-weight: 700;
+     line-height: 30px;
+     margin-top: 35px;
+     margin-bottom: 10px;
+}
+ .company-details-name {
+     font-size: 16px;
+     line-height: 0;
+}
+
+/* =================== Explore Product Tab Area CSS - Home 02 =================== */
+ .product-tab .tab button {
+     float: left;
+     outline: none;
+     cursor: pointer;
+     transition: 0.3s;
+     border: 1px solid #A1A1A1;
+     background-color: transparent;
+     color: #A1A1A1;
+     font-size: 18px;
+     padding: 15px 29px;
+     margin-left: 12px;
+     border-radius: 4px;
+}
+ .product-tab.product-d-tab .tab button {
+     margin-left: 0;
+     margin-right: 12px;
+}
+ .product-tab .tab button:hover {
+     background-color: #F9C200;
+     color: #000;
+     border-color: #F9C200;
+}
+ .product-tab .tab button.active {
+     background-color: #F9C200;
+     color: #000;
+     border-color: #F9C200;
+}
+ .tabcontent, .tab-content {
+     display: none;
+     animation: fadeEffect 1s;
+}
+ @keyframes fadeEffect {
+     from {
+        opacity: 0;
+    }
+     to {
+        opacity: 1;
+    }
+}
+
+/* =================== Newest Item Slider Css : Home 2 =================== */
+ .newest-item-img {
+     width: 267px;
+}
+ .newest-item-img img {
+     border-radius: 6px;
+}
+ .newest-item-heading {
+     font-size: 20px;
+     line-height: 26px;
+     color: #A1A1A1;
+     text-align: left;
+}
+ .newest-item-slide {
+     background-color: #262626;
+     border-radius: 8px;
+     padding: 30px;
+     height: 386px;
+}
+ .newest-item-author-img {
+     height: 70px;
+     width: 70px;
+     background-color: #131313;
+     border-radius: 50%;
+     overflow: hidden;
+     margin-right: 15px;
+}
+ .newest-item-author-name {
+     font-size: 15px;
+     font-weight: 700;
+     line-height: 22px;
+}
+ .newest-item-author-link a span {
+     display: block;
+     text-align: left;
+     color: #A1A1A1;
+}
+ span.newest-item-author-short-name {
+     font-size: 13px;
+     line-height: 22px;
+}
+ .newest-item-author-events {
+     position: relative;
+}
+ .love-react.home-2 {
+     background-color: #414141;
+}
+ .newest-item-slide ul.item-click-menu-wrapper {
+     top: 48px;
+     left: -110px;
+     text-align: left;
+}
+ .newest-item-slide ul.item-click-menu-wrapper.active {
+     top: 48px;
+     left: -89px;
+}
+ .newest-item-author-box {
+     border-bottom: 1px solid #414141;
+     margin-bottom: 18px;
+     padding-bottom: 3px;
+}
+ .bidding-ending-box {
+     background-color: #414141;
+     border-radius: 5px;
+     padding: 9px 0;
+     color: #A1A1A1;
+     line-height: 19px;
+}
+ .bidding-ending-title {
+     border-bottom: 1px solid #262626;
+     padding-bottom: 6px;
+     display: none;
+}
+ .bidding-ending-counter-box {
+     margin-top: 13px;
+     margin-bottom: 4px;
+}
+ .bidding-ending-counter-box ul li {
+     display: inline-block;
+}
+ .bidding-ending-counter-box ul li span {
+     display: block;
+     color: #F9C200;
+     position: relative;
+     margin: 0 20.782px;
+}
+ .bidding-ending-counter-box ul li span::before {
+     position: absolute;
+     content: "";
+     height: 6px;
+     width: 6px;
+     background: #F9C200;
+     left: -24px;
+     top: 6px;
+     border-radius: 50%;
+}
+ .bidding-ending-counter-box ul li:nth-child(1) span::before {
+     display: none;
+     opacity: 0;
+     visibility: hidden;
+}
+ .bidding-ending-counter-number {
+     font-size: 16px;
+     font-weight: 700;
+}
+ .bidding-ending-counter-text {
+     font-size: 13px;
+}
+ .product-details-footer{
+     margin-top: 19px;
+}
+ .product-details-footer.boxed-btn {
+     padding: 14px 18px;
+     line-height: 18px;
+}
+ .product-price {
+     font-size: 18px;
+     line-height: 24px;
+     font-weight: 500;
+     padding: 14px 18px;
+     border: 1px solid #414141;
+     border-radius: 5px;
+     color: #A1A1A1;
+     margin-right: 20px;
+}
+ .product-details-footer .boxed-btn {
+     padding: 12px 21px;
+}
+
+
+/* =================== Product slider =================== */
+ .newest-item-slider-area .slick-slide, .related-products-slider .slick-slide {
+     margin: 0 12px;
+}
+ .related-products-slider .slick-list {
+     margin: 0 -12px;
+}
+ .newest-item-slider-area .slick-list {
+     margin: 0 -12px;
+}
+ .newest-item-slider-area .slick-arrow, .related-products-slider .slick-arrow {
+     height: 58px;
+     width: 58px;
+     background-color: #F9C200;
+     display: inline-block;
+     color: #000;
+     font-size: 25px;
+     text-align: center;
+     line-height: 60px;
+     position: absolute;
+     top: -100px;
+     right: 15px;
+     border-radius: 5px;
+     cursor: pointer;
+}
+ .newest-item-slider-area .prev.slick-arrow, .related-products-slider .prev.slick-arrow {
+     right: 88px;
+}
+ .newest-item-slider-area .slick-list.draggable, .related-products-slider .slick-list.draggable .slick-list.draggable {
+     border-radius: 8px;
+}
+
+/* ================================ Product Details Page CSS =================================== */
+ .product-img-tab .tab-links {
+     display: block;
+     margin-bottom: 20px;
+     cursor: pointer;
+}
+ .product-img-tab .tab-links img {
+     border-radius: 5px;
+}
+ .product-big-img {
+     margin-left: 30px;
+     background-color: #333;
+     padding: 20px;
+     border-radius: 5px;
+}
+ .product-img-tab span:nth-last-child(1) {
+     margin-bottom: 0;
+}
+ .product-big-img .tab-content img {
+     border-radius: 13px;
+}
+ .product-name {
+     font-size: 20px;
+     line-height: 26px;
+}
+ .product-author-img {
+     background-color: #131313;
+     border-radius: 50%;
+}
+ .product-author-info {
+     margin-left: 15px;
+}
+ .product-author-info span {
+     display: block;
+     font-size: 13px;
+     line-height: 22px;
+}
+ .product-author-name {
+     font-size: 20px;
+     font-weight: 700;
+     transition: .3s;
+}
+ .product-author-box {
+     position: relative;
+}
+ .product-author-box ul.item-click-menu-wrapper {
+     left: auto;
+     right: 100px;
+     top: 28px;
+}
+ .product-author-box ul.item-click-menu-wrapper.active {
+     right: 50px;
+}
+ .product-author-link:hover {
+     color: #A1A1A1;
+}
+ .product-author-link:hover .product-author-name {
+     color: #F9C200;
+}
+ .product-bid-ending-box {
+     border-top: 1px solid #414141;
+     margin-top: 15px;
+     padding-top: 30px;
+     margin-bottom: 25px;
+}
+ ul.product-counter-timer li {
+     display: inline-block;
+     border: 1px solid #F9C200;
+     border-radius: 2px;
+     padding: 15px;
+     margin-right: 15px;
+     text-align: center;
+     height: 70px;
+     width: 70px;
+}
+ ul.product-counter-timer li span {
+     display: block;
+     font-size: 13px;
+     line-height: 19px;
+     color: #F9C200;
+}
+ ul.product-counter-timer li .count-number {
+     font-weight: 700;
+     font-size: 16px;
+}
+/* ================================ Create NFT Page CSS =================================== */
+ .create-nft-form-wrapper label {
+     font-size: 18px;
+     font-weight: 500;
+     margin-bottom: 10px;
+}
+ .create-nft-form-wrapper {
+     background-color: #131313;
+     padding: 20px;
+     border-radius: 5px;
+}
+ .create-nft-form-border {
+     border: 1px solid #414141;
+     padding: 38px 28px;
+     border-radius: 5px;
+}
+ .create-nft-form-wrapper input[type=text], .create-nft-form-wrapper input[type=number], .create-nft-form-wrapper select, .create-nft-form-wrapper textarea {
+     background-color: transparent;
+     border: 1px solid #414141;
+     width: 100%;
+     border-radius: 5px;
+     color: #656565;
+     height: 50px;
+     padding: 0 25px;
+     margin-bottom: 25px;
+}
+ .create-nft-form-wrapper textarea {
+     height: 90px;
+     padding: 15px 25px;
+}
+ #p-category option{
+     background-color: #131313;
+}
+ label.nft-form-checklist {
+     font-size: 13px;
+     font-weight: 400;
+     margin-right: 20px;
+     color: #656565;
+}
+ .nft-form-checklist input{
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+     height: 0;
+     width: 0;
+}
+ .checkmark {
+     position: absolute;
+     top: 5px;
+     left: 0;
+     height: 14px;
+     width: 14px;
+     background-color: #262626;
+     border: 1px solid #505050;
+     border-radius: 2px;
+}
+ .checkmark:after {
+     content: "";
+     position: absolute;
+     display: none;
+}
+ .nft-form-checklist input:checked ~ .checkmark:after {
+     display: block;
+}
+ .nft-form-checklist .checkmark:after {
+     left: 4px;
+     top: 2px;
+     width: 3px;
+     height: 6px;
+     border: solid #F9C200;
+     border-width: 0 1px 1px 0;
+     -webkit-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     transform: rotate(45deg);
+}
+ .nft-form-checklist {
+     display: inline-block;
+     position: relative;
+     padding-left: 23px;
+     margin-bottom: 30px;
+     cursor: pointer;
+     font-size: 22px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+ .create-nft-title {
+     font-size: 25px;
+     margin-bottom: 50px;
+}
+ .upload-text {
+     line-height: 30px;
+     margin-bottom: 30px;
+}
+ .upload-text p, .custom-file-upload p {
+     font-size: 18px;
+     font-weight: 500;
+     margin-bottom: 0;
+}
+ input[type="file"] {
+     display: none;
+}
+ .custom-file-upload {
+     border: 1px dotted #ccc;
+     display: inline-block;
+     padding: 6px 12px;
+     cursor: pointer;
+     text-align: center;
+     width: 100%;
+     line-height: 30px;
+     padding: 92px 0;
+}
+ .upload-icon {
+     margin-bottom: 20px;
+}
+ .create-nft-footer-info {
+     margin-top: 70px;
+}
+ .create-nft-footer-info p {
+     margin-bottom: 0;
+     font-size: 13px;
+}
+ input.boxed-btn{
+     transition: .3s;
+}
+/* ================================ Upload Variant Page CSS =================================== */
+ .upload-variants-img {
+     background-color: #131313;
+     height: 450px;
+     width: 450px;
+     display: block;
+     padding: 20px;
+     margin: 0 30px;
+     margin-bottom: 40px;
+     border-radius: 5px;
+}
+ .upload-variants-img img {
+     border-radius: 6px;
+}
+/* ================================ Creators Page CSS =================================== */
+ .boxed-filter-btn .boxed-btn {
+     margin-left: 40px;
+}
+ .btn-icon {
+     margin-left: 5px;
+     font-size: 20px;
+}
+ .boxed-filter-btn {
+     font-size: 18px;
+}
+/* ================================ Author Page CSS =================================== */
+ .author-breadcrumb-bg {
+     position: relative;
+     z-index: 1;
+     color: #fff;
+}
+ .author-breadcrumb-bg:after {
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     background-color: #000;
+     opacity: .5;
+     z-index: -1;
+}
+ .author-profile-info {
+     margin-left: 50px;
+}
+ .author-name {
+     font-size: 30px;
+     line-height: 25px;
+     margin-bottom: 5px;
+}
+ .author-follower-box li {
+     display: inline-block;
+     margin-top: 20px;
+     list-style: disc;
+     margin-right: 35px;
+     position: relative;
+}
+ .author-follower-box li:nth-child(2):after {
+     position: absolute;
+     content: "";
+     height: 5px;
+     width: 5px;
+     background-color: #fff;
+     left: -21px;
+     top: 11px;
+     border-radius: 50%;
+}
+ .follower-number {
+     font-weight: 700;
+}
+ .author-profile-img img {
+     border-radius: 6px;
+}
+ .author-profile-click-menu {
+     height: 58px;
+     width: 58px;
+     display: inline-block;
+     background-color: #262626;
+     text-align: center;
+     line-height: 61px;
+     border-radius: 5px;
+     color: #A1A1A1;
+     margin-left: 10px;
+     cursor: pointer;
+}
+ .author-address {
+     margin-top: 25px;
+}
+/* ================================ Our Collection Page CSS =================================== */
+ .our-collection-page .product-collection-wrapper {
+     margin: 12px 0;
+}
+/* ================================ Login + Sign Up Form CSS =================================== */
+ .nft-form-title {
+     font-size: 25px;
+     line-height: 30px;
+     margin-bottom: 10px;
+}
+ .nft-form-wrapper input, .nft-main-form input {
+     height: 60px;
+     width: 100%;
+     background-color: #060606;
+     border: navajowhite;
+     color: #646464;
+     border-radius: 5px;
+}
+ .nft-form-wrapper textarea, .nft-main-form textarea {
+     height: 130px;
+     width: 100%;
+     background-color: #060606;
+     border-radius: 5px;
+     border: none;
+     padding: 30px;
+}
+ .nft-form-wrapper textarea:focus, .nft-main-form textarea:focus {
+     outline: none;
+}
+ .nft-form-wrapper {
+     background-color: #262626;
+     padding: 30px;
+     border-radius: 5px;
+}
+ .nft-form-inner {
+     border: 1px solid #414141;
+     border-radius: 5px;
+}
+ .nft-form-box {
+     padding: 48px;
+     padding-right: 0;
+}
+ .nft-form-box input[type=email], .nft-form-box input[type=text], .nft-form-box input[type=password], .nft-main-form input[type=email], .nft-main-form input[type=text], .nft-main-form input[type=password] {
+     color: #646464;
+     padding: 0 30px;
+     font-size: 14px;
+     margin-bottom: 18px;
+}
+ label.nft-form-checklist.login-remember {
+     color: #A1A1A1;
+}
+ input.nft-form-button {
+     background-color: #F8C200;
+     font-size: 18px;
+     color: #333333;
+     font-weight: 500;
+}
+ .nft-form-button.nft-form-button-2 {
+     background-color: #060606;
+     color: #A1A1A1;
+}
+ .ntf-login-with {
+     display: inline-block;
+     width: 100%;
+     background-color: #060606;
+     font-size: 18px;
+     font-weight: 500;
+     height: 60px;
+     border-radius: 5px;
+     padding: 16px;
+}
+ .login-with-btn-icon {
+     display: inline-block;
+     padding-right: 25px;
+     padding-left: 16px;
+     font-size: 20px;
+}
+ .nft-form-img img {
+     border-radius: 0px 6px 6px 0px;
+}
+
+/* ================================ Blog Post CSS =================================== */
+ .our-blog-area .single-post {
+     margin-bottom: 24px;
+}
+ .single-post {
+     padding: 20px;
+     background-color: #262626;
+     border-radius: 7px;
+     border: 1px solid #414141;
+}
+ .single-post.single-col {
+     padding: 45px;
+}
+ .single-post.two-col {
+     padding: 30px;
+}
+ .single-post.three-col {
+     padding: 25px;
+}
+ .single-post-img {
+     overflow: hidden;
+     border-radius: 11px;
+}
+ .single-post-img img {
+     transition: .4s;
+     transform: scale(1.013);
+     width: 100%;
+}
+ .single-post:hover .single-post-img img{
+     transform: scale(1.2) 
+}
+ .single-post-author .post-by {
+     font-size: 12px;
+     font-weight: 200;
+     display: block;
+     line-height: 12px;
+}
+ .single-post-author p {
+     margin-bottom: 0;
+     margin-top: 8px;
+     margin-left: 15px;
+}
+ .single-post-meta {
+     margin: 15px 0;
+     border-bottom: 1px solid #414141;
+     padding-bottom: 15px;
+}
+ .single-post-date {
+     display: inline-block;
+     background-color: #3B3B3B;
+     padding: 7px 13px;
+     border-radius: 5px;
+     font-size: 13px;
+     line-height: 19px;
+}
+ .single-post-date i {
+     color: #F9C200;
+     font-size: 11px;
+     padding-right: 5px;
+}
+ .single-post-title {
+     font-size: 22px;
+     line-height: 30px;
+     font-weight: 500;
+     transition: .3s;
+}
+ .single-post-desc p {
+     line-height: 24px;
+     margin-bottom: 0;
+}
+ .single-post:hover .single-post-title a, .single-post:hover .post-author-name, .others-post-box:hover .single-post-title {
+     color: #F9C200;
+}
+ .post-author-name {
+     transition: .3s;
+}
+ .single-blog-details img {
+     border-radius: 6px;
+}
+ .blog-details-title {
+     color: #A1A1A1;
+     font-size: 25px;
+     line-height: 18px;
+     margin-bottom: 25px;
+     font-weight: 500;
+}
+ .single-blog-details {
+     line-height: 24px;
+}
+ .blog-details-quote {
+     padding: 35px 45px 18px 45px;
+     background-color: #262626;
+     border-radius: 5px;
+     border: 1px solid #414141;
+     margin: 38px 0;
+}
+ .blog-details-quote p.quote-p {
+     font-style: italic;
+     font-weight: 600;
+     margin-bottom: 27px;
+}
+ .blog-details-img-box {
+     margin-bottom: 50px;
+}
+ .blog-details-img-box a:nth-child(2) {
+     margin: 0 15px;
+}
+ ul.blog-details-text-list {
+     margin: 30px 0;
+}
+ ul.blog-details-text-list li {
+     position: relative;
+     padding-left: 17px;
+}
+ ul.blog-details-text-list li::before {
+     position: absolute;
+     content: "";
+     background-color: #F9C200;
+     width: 6px;
+     height: 6px;
+     top: 8px;
+     left: 0;
+     border-radius: 50%;
+}
+ .blog-details-footer-meta {
+     margin-top: 45px;
+     margin-bottom: 65px;
+     line-height: 18px;
+     border-bottom: 1px solid #414141;
+     padding-bottom: 30px;
+}
+ .blog-details-footer-meta h3 {
+     font-size: 25px;
+     font-weight: 500;
+     color: #A1A1A1;
+     margin-bottom: 0;
+     margin-right: 15px;
+}
+ .blog-details-footer-meta a {
+     display: inline-block;
+     padding: 10px;
+}
+ .blog-details-footer-meta a:hover {
+     color: #F9C200;
+}
+ .post-share-on a {
+     height: 30px;
+     width: 30px;
+     background-color: #262626;
+     margin: 0 4px;
+     border-radius: 50%;
+     padding: 7px;
+     text-align: center;
+}
+ ol.comment-list {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+ .single-comment img {
+     position: absolute;
+     width: 50px;
+     left: 0;
+     top: 0;
+}
+ .single-comment {
+    position: relative;
+    padding-left: 65px;
+    margin-bottom: 25px;
+}
+ .single-comment h5 {
+     font-size: 18px;
+     line-height: 24px;
+     margin-bottom: 6px;
+}
+ ul.children {
+     padding-left: 28px;
+}
+ .single-comment .comment {
+     border-bottom: 1px dashed #414141;
+     padding-bottom: 5px;
+}
+ ol.comment-list > li:nth-last-child(1) .comment {
+     border: none;
+}
+ .comment-reply-link {
+     position: absolute;
+     right: 0;
+     top: 0;
+     color: #F9C200;
+     font-size: 16px;
+     display: inline-block;
+}
+ .comment-form-area {
+     margin-top: 35px;
+}
+ .comment-form input, .comment-form textarea {
+     background-color: #262626;
+     color: #6A6A6A;
+}
+ .comment-form .boxed-btn {
+     margin-top: 40px;
+}
+.comment-form .dash-right button {
+    padding: 11px 15px;
+    margin: 5px 0;
+}
+
+/* ================================ Sidebar css =================================== */
+ .blog-sidebar input[type=text], .blog-sidebar input[type=email], .blog-sidebar input[type=search] {
+     height: 66px;
+     background-color: #262626;
+     width: 100%;
+     padding: 10px 25px;
+     color: #817E7E;
+     border-radius: 5px;
+}
+ .search-form button {
+     position: absolute;
+     right: 0;
+     top: 0;
+     height: 66px;
+     width: 66px;
+     border-radius: 6px;
+     font-size: 22px;
+     background-color: #F9C200;
+}
+ .subscribe-form {
+     margin-top: 35px;
+}
+ .search-form {
+     position: relative;
+}
+ .subscribe-form input[type=email], .subscribe-form button {
+     height: 60px;
+     display: block;
+     width: 100%;
+     border-radius: 5px;
+}
+ .subscribe-form button {
+     font-size: 18px;
+     font-weight: 500;
+}
+ .subscribe-form input[type=email] {
+     background-color: #383838;
+     border: none;
+     margin-bottom: 10px;
+     font-size: 16px;
+}
+ .blog-sidebar {
+     margin-left: 25px;
+}
+ .widget {
+     margin-bottom: 50px;
+}
+ .sidebar-widget-title {
+     margin-bottom: 20px;
+     color: #F9C200;
+     position: relative;
+     margin-left: 22px;
+     font-size: 25px;
+     font-weight: 500;
+     line-height: 36px;
+}
+ .sidebar-widget-title:before {
+     position: absolute;
+     content: "";
+     left: -22px;
+     top: 0;
+     height: 100%;
+     width: 4px;
+     background-color: #F9C200;
+}
+ .blog-sidebar .widget ul li {
+     position: relative;
+     padding-left: 45px;
+}
+ .blog-sidebar .widget ul li a {
+     line-height: 44px;
+}
+ .blog-sidebar .widget ul li:before {
+     position: absolute;
+     content: "";
+     left: 0;
+     top: 11px;
+     height: 18px;
+     width: 30px;
+     background-image: url(../img/category-before.png);
+}
+ .blog-sidebar .widget ul li:after {
+     position: absolute;
+     right: 0;
+     content: "";
+     top: 6px;
+     background-image: url(../img/category-after.png);
+     height: 28px;
+     width: 28px;
+     opacity: 0;
+     visibility: hidden;
+}
+ .blog-sidebar .widget ul li.active:after{
+     opacity: 1;
+     visibility: visible;
+}
+ .blog-sidebar .widget ul li:hover a, .blog-sidebar .widget ul li.active a, .blog-sidebar .widget ul li:hover span, .blog-sidebar .widget ul li.active span {
+     color: #F9C200;
+}
+ .widget ul li span {
+     transition: .3s;
+}
+ .popular-post-info {
+    margin-left: 20px;
+}
+ .popular-post-info p {
+     font-size: 16px;
+     line-height: 26px;
+     margin-bottom: 10px;
+     transition: .3s;
+}
+ .popular-post:hover .popular-post-info p{
+     color: #F9C200;
+}
+ .popular-post-info span {
+     font-size: 13px;
+     line-height: 19px;
+}
+ .popular-post-info span i {
+     color: #F9C200;
+     font-size: 11px;
+}
+ .popular-post img {
+     height: 85px;
+     width: 110px;
+     border-radius: 5px;
+}
+ .popular-post:last-child {
+     margin-bottom: 0;
+}
+ .popular-post {
+     margin-bottom: 18px;
+}
+ .tags a {
+     display: inline-block;
+     background-color: #262626;
+     padding: 8px 18px;
+     margin: 7px 5px;
+     border-radius: 5px;
+     border: 1px solid #414141;
+}
+ .tags a:hover, .tags a.active {
+     background-color: #F9C200;
+     color: #000;
+}
+ .subscribe-form-title {
+     font-size: 20px;
+     color: #A1A1A1;
+     line-height: 30px;
+}
+ .widget-subscribe {
+     background-color: #262626;
+     border-bottom: 51px;
+     padding: 30px;
+     border-radius: 5px;
+     position: relative;
+     z-index: 1;
+}
+ .widget-subscribe:after {
+     position: absolute;
+     content: "";
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 50%;
+     background-image: url(../img/subscribe-form-bg.png);
+     background-repeat: no-repeat;
+     z-index: -1;
+     background-size: cover;
+}
+/* ================================ Privacy Policy + Support & FAQ CSS =================================== */
+ .privacy-policy-box {
+     margin: 0px 210px;
+}
+ .privacy-policy-box, .support-and-faq-box {
+     padding: 44px;
+}
+ .others-post-box {
+     margin-bottom: 34px;
+}
+ .nft-faq-accordion .accordion-item {
+     background-color: #131313;
+     border: 1px solid #707070;
+     margin-bottom: 25px;
+     padding: 10px 13px;
+     line-height: 24px;
+     padding-right: 3px;
+}
+ .nft-faq-accordion .accordion-button:focus {
+     border-color: #707070;
+     box-shadow: none;
+}
+ .nft-faq-accordion .accordion-button {
+     background-color: #131313;
+     font-size: 22px;
+     font-weight: 500;
+}
+ .accordion-button:not(.collapsed) {
+     color: #F9C200;
+}
+ .accordion-button.collapsed {
+     color: #A1A1A1;
+}
+ .nft-faq-accordion .accordion-button::after {
+     color: #A1A1A1;
+}
+ .nft-faq-accordion .accordion-item .accordion-button, .nft-faq-accordion .accordion-item {
+     border-radius: 5px;
+}
+/* ================================ Dashboard Settings CSS =================================== */
+ .dashboard-menu-heading {
+     font-size: 18px;
+}
+ .dashboard-content-heading {
+     font-size: 22px;
+}
+ .dashboard-menu-heading i {
+     margin-right: 12px;
+}
+ .dashboard-tab .tab-links {
+     border: 1px solid #414141;
+     border-radius: 5px;
+     padding: 13px 20px;
+     margin-bottom: 10px;
+     display: block;
+     cursor: pointer;
+     transition: .3s;
+}
+ .dashboard-tab .tab-links:hover, .dashboard-tab .tab-links.active {
+     border-color: #F9C204;
+     color: #F9C204;
+}
+ .dashboard-tab .tab-links i {
+     margin-right: 20px;
+}
+ .profile-file-upload {
+     display: block;
+}
+ .profile-file-upload p {
+     font-size: 18px;
+}
+ .profile-file-upload .upload-icon {
+     background-color: #262626;
+     height: 80px;
+     width: 80px;
+     text-align: center;
+     padding-top: 25px;
+     border-radius: 50%;
+     margin-bottom: 30px;
+}
+ .upload-icon.upload-icon-box {
+     width: 129px;
+     border-radius: 5px;
+}
+ .profile-file-upload button, .dash-notifications li {
+     height: 50px;
+     padding: 0 25px;
+     border: 1px solid #414141;
+     border-radius: 5px;
+     background-color: #262626;
+     color: #A1A1A1;
+     margin-right: 10px;
+}
+ .dash-notifications li {
+     display: block;
+}
+ .dash-notifications li a {
+     display: block;
+}
+ .profile-file-upload button:hover {
+     color: #F9C200;
+}
+ .dash-left label {
+     margin-bottom: 12px;
+}
+ .dash-left input {
+     border: 1px solid #414141;
+     height: 54px;
+}
+ .dash-notifications li {
+     display: block;
+     position: relative;
+     padding: 0 8px;
+     margin-bottom: 10px;
+}
+ .dash-notifications li a {
+     display: block;
+     padding: 10px;
+}
+ .dash-notifications li span {
+     position: absolute;
+     top: 11px;
+     right: 20px;
+     background-color: #131313;
+     padding: 1px 12px;
+     border-radius: 3px;
+}
+ .dash-notifications li a img {
+     margin-right: 14px;
+}
+ .dash-order {
+     margin: 35px 0;
+}
+ .site-color-mode-box button {
+     border: 0;
+     height: 54px;
+     width: 188px;
+     margin-right: 2px;
+     background-color: #fff;
+}
+ .site-color-mode-box button img {
+     margin-right: 20px;
+}
+ .site-color-mode-box button.dark {
+     border-radius: 5px 0px 0px 5px;
+}
+ .site-color-mode-box button.light {
+     background-color: #000;
+     color: #fff;
+     border-radius: 0px 5px 5px 0px;
+}
+ .site-color-mode-box {
+     margin-top: 40px;
+}
+ .account-support .accordion-item {
+     padding: 6px 12px;
+}
+ .account-support .accordion-button {
+     font-size: 18px;
+}
+ .account-support .accordion-item, .account-support .accordion-button {
+     background-color: #262626;
+}
+ .account-support .accordion-item {
+     margin-bottom: 0;
+     margin: 12px 0;
+}
+/* ================================ Scroll Top CSS =================================== */
+ .scrollTopBtn {
+     display: none;
+     position: fixed;
+     bottom: 20px;
+     right: 30px;
+     z-index: 99;
+     border: none;
+     outline: none;
+     background-color: #262626;
+     color: #F9C200;
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 50%;
+     font-size: 30px;
+     transition: .3s;
+     height: 84px;
+     width: 84px;
+}
+ .scrollTopBtn:hover {
+     background-color: #555;
+}
+
+
+/* ================================ Home Version One CSS =================================== */
+/* Style 2: All Background Color */
+.home-version-one .nft-site-lang, 
+.home-version-one .nft-promotion-time span, 
+.home-version-one .boxed-btn, 
+.home-version-one .item-click-menu, 
+.home-version-one .nft-highlight-bg-color, 
+.home-version-one .single-top-seller:hover .single-top-seller-border:before, 
+.home-version-one .single-top-seller:hover .single-top-seller-border:after,
+.home-version-one .single-create-sell-item:hover .single-create-sell-item-border:before, 
+.home-version-one .single-create-sell-item:hover .single-create-sell-item-border:after,
+.home-version-one .item-click-menu-wrapper,
+.home-version-one .footer-widget ul li:hover a:before,
+.home-version-one span.seller-author-badge 
+{
+    background-image: linear-gradient(to right, #5776FE , #B674FF);
+    background-color: #9075FF;
+}
+.scrollTopBtn.home-version-one,
+.home-version-one .footer-bottom-right a:hover,
+.home-version-one .company-name:hover
+{
+    color: #9075FF;
+}
+
+/* Style 2: All Text Color */
+.home-version-one .highlight-color-1, 
+.home-version-one .single-top-seller:hover span.seller-autor-name, 
+.home-version-one .single-create-sell-item:hover .single-create-sell-item-title, 
+.home-version-one .bidding-user.new-item:hover,
+.home-version-one .top-collection-stock,
+.home-version-one .footer-widget ul li:hover a,
+.home-version-one .footer-social-icon-list a:hover,
+.home-version-one .recent-sold-out:hover .recent-sold-out-author-name,
+.home-version-one a.bidding-user:hover,
+.home-version-one .nft-highlight-color,
+.home-version-one .nft-social-icons a:hover
+{
+    background: -webkit-linear-gradient(45deg, #5776FE, #B674FF 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #9075FF;
+}
+
+.home-version-one .item-click-menu, 
+.home-version-one .boxed-btn, 
+.home-version-one .nft-hero-btn.boxed-btn, 
+.home-version-one .nft-promotion-time span,
+.home-version-one .single-bidding-box:hover .boxed-btn,
+.home-version-one .bidding-duration ul li,
+.home-version-one ul.item-click-menu-wrapper li a
+.home-version-one ul.item-click-menu-wrapper li a
+{
+    color: #fff;
+}
+
+
+/* Style 2: All Border Color */
+.home-version-one .boxed-btn, 
+.home-version-one .footer-widget ul li:hover a:before
+{
+    border-color: #9075FF;
+}
+
+.home-version-one .bidding-box-bg span.love-react.active, 
+.home-version-one .bidding-box-bg span.love-react:hover,
+.home-version-one .nft-user-menu-wrapper a:hover,
+.home-version-one .product-collection-stock,
+.home-version-one .single-bidding-box:hover .bidding-product-name a
+{
+    color: #9075FF;
+}
+
+.home-version-one .nft-text-stroke {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9075FF;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-version-one .hero-img-box img:nth-child(1), .hero-img-box img:nth-child(2) {
+    height: 187px;
+}
+
+.home-version-one .hero-img-box img:nth-child(2), .hero-img-box img:nth-child(3) {
+    height: 389px;
+}
+
+/* ================================ Home-2 Page CSS =================================== */
+.nft-hero-area.home-2 {
+    height: fit-content;
+}
+
+.home-2 .hero-right {
+    margin-left: 84px;
+}
+/* Top Seller area Css */
+.home-2 .single-top-seller {
+    height: 239px;
+  }
+  .home-2 .single-top-seller-border {
+    padding: 19px 13px;
+  }
+  .home-2 .seller-rank-wrapper {
+    right: -1px;
+    top: -1px;
+    width: 34px;
+    height: 26px;
+    border-radius: 0px 4px 0px 4px;
+    border: none;
+  }
+  .home-2 .seller-author-info {
+    margin-left: 0;
+  }
+  
+  .home-2 .seller-author-img {
+    margin: 0 auto;
+    margin-bottom: 18px;
+  }
+  
+  .home-2 .seller-autor-name {
+    margin-bottom: 2px;
+  }
+  
+  .home-2 .seller-author-follow-btn .boxed-btn {
+    padding: 0;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 4px 22px;
+    font-weight: 400;
+    margin-top: 19px;
+  }
+  
+  .home-2 .nft-advertisement-box {
+    margin: 12px 0;
+    display: block;
+  }
+  .home-2 .nft-advertisement-box.box-1 {
+    margin-bottom: 25px;
+  }
+  .home-2 .nft-advertisement-box img {
+    height: 239px;
+    border-radius: 6px;
+  }
+    
+/* ================================ Footer CSS =================================== */
+ .footer-list > div {
+     width: 15%;
+}
+ .footer-list > div:nth-child(1) {
+     width: 30%;
+     padding-right: 106px 
+}
+ .footer-list > div:nth-child(5) {
+     width: 17%;
+}
+ .footer-logo {
+     margin-bottom: 35px;
+}
+ .footer-widget p, .footer-widget a {
+     color: #A1A1A1;
+}
+ .footer-widget-1 {
+     margin-right: 150px;
+     line-height: 24px;
+}
+ .footer-social-icon-title {
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 24px;
+     margin: 26px 0;
+}
+ .footer-social-icon-list a {
+     display: inline-block;
+     width: 38px;
+     height: 38px;
+     text-align: center;
+     background-color: #262626;
+     font-size: 18px;
+     line-height: 40px;
+     border-radius: 50%;
+     margin-right: 7px;
+}
+ .footer-social-icon-list a:hover {
+     color: #F9C200;
+}
+ .widget-title {
+     font-size: 25px;
+     line-height: 24px;
+     font-weight: 500;
+     margin-bottom: 45px;
+}
+ .footer-widget ul li a {
+     display: block;
+     line-height: 33px;
+     position: relative;
+     margin-left: 16px;
+}
+ .footer-widget ul li:hover a {
+     color: #F9C200;
+     margin-left: 26px;
+}
+ .footer-widget ul li:hover a:before {
+     background-color: #F9C200;
+     border-color: #6d5601;
+}
+ .footer-widget ul li a:before {
+     position: absolute;
+     content: "";
+     height: 8px;
+     width: 8px;
+     left: -16px;
+     top: 12px;
+     background-color: #A1A1A1;
+     border-radius: 50%;
+     border: 2px solid #707070;
+     transition: .3s;
+}
+ .recent-sold-out div {
+     float: left;
+}
+ .widget-img-thumb {
+     width: 60px;
+     height: 60px;
+     background-color: #262626;
+}
+ .recent-sold-out {
+     display: inline-block;
+     margin: 2px 0px;
+}
+ .recent-sold-out-info {
+     width: 120px;
+     margin-left: 15px;
+     line-height: 20px;
+     margin-top: 2px;
+}
+ .recent-sold-out-info span {
+     display: inline-block;
+     line-height: 18px;
+}
+ .recent-sold-out-author-name {
+     font-size: 15px;
+     font-weight: 700;
+}
+ span.recent-sold-out-place-bit {
+     font-size: 11px;
+}
+ span.recent-sold-out-place-bit-price {
+     font-size: 12px;
+     font-weight: 700;
+}
+/* footer bottom */
+ .footer-bottom-area {
+     background-color: #262626;
+     padding: 26px 0;
+     line-height: 18px;
+     color: #A1A1A1;
+}
+a.company-name {
+    color: #fff;
+}
+a.company-name:hover {
+    color: #F9C200;
+}
+ .footer-bottom-right a {
+     color: #A1A1A1;
+     margin: 0px 14px;
+}
+ .footer-bottom-right a:hover {
+     color: #F9C200;
+}
+
+
+/* Background image CSS */
+ .bidding-box-bg {
+     background-position: top center;
+     background-size: cover;
+     background-color: #ddd;
+     background-repeat: no-repeat;
+}
+ .item-bg-1 {
+     background-image: url(../img/item-bg-1.jpg);
+}
+ .item-bg-2 {
+     background-image: url(../img/item-bg-2.jpg);
+}
+ .item-bg-3 {
+     background-image: url(../img/item-bg-3.jpg);
+}
+ .item-bg-4 {
+     background-image: url(../img/item-bg-4.jpg);
+}
+ .new-item-bg-1 {
+     background-image: url(../img/new-item-bg-1.jpg);
+}
+ .new-item-bg-2 {
+     background-image: url(../img/new-item-bg-2.jpg);
+}
+ .new-item-bg-3 {
+     background-image: url(../img/new-item-bg-3.jpg);
+}
+ .new-item-bg-4 {
+     background-image: url(../img/new-item-bg-4.jpg);
+}
+ .explore-product-1 {
+     background-image: url(../img/explore-product-1.jpg);
+}
+ .explore-product-2 {
+     background-image: url(../img/explore-product-2.jpg);
+}
+ .explore-product-3 {
+     background-image: url(../img/explore-product-3.jpg);
+}
+ .explore-product-4 {
+     background-image: url(../img/explore-product-4.jpg);
+}
+ .explore-product-5 {
+     background-image: url(../img/explore-product-5.jpg);
+}
+ .explore-product-6 {
+     background-image: url(../img/explore-product-6.jpg);
+}
+ .explore-product-7 {
+     background-image: url(../img/explore-product-7.jpg);
+}
+ .explore-product-8 {
+     background-image: url(../img/explore-product-8.jpg);
+}
+ .single-top-collection-img-bg-1 {
+     background-image: url(../img/single-top-collection-img-1.jpg);
+}
+ .single-top-collection-img-bg-2 {
+     background-image: url(../img/single-top-collection-img-2.jpg);
+}
+ .single-top-collection-img-bg-3 {
+     background-image: url(../img/single-top-collection-img-3.jpg);
+}
+ .single-top-collection-img-bg-4 {
+     background-image: url(../img/single-top-collection-img-4.jpg);
+}
+ .breadcrumb-bg {
+     background-image: url(../img/breadcrumb-bg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+ .author-breadcrumb-bg {
+     background-image: url(../img/author-breadcrumb-bg.jpg);
+}
+ 

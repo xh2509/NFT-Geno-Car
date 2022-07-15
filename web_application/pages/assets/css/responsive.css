@@ -1,0 +1,1325 @@
+
+/* ========================================== */
+/* Laptop/ Normal Desktop Layout: 1200px. */
+/* ========================================== */
+@media (min-width: 1201px) and (max-width: 1500px) { 
+    .nft-user-menu-wrapper {
+        right: 85px;
+    }
+    .bidding-duration ul li {
+        padding: 6px 12px;
+    }
+    .single-create-sell-item-border {
+        padding: 0 8px;
+    }
+
+    .filter-item-box {
+        width: 18.1%;
+        margin: 0 10.84px;
+    }
+    /* Newes Item Slider: Home-2 */
+
+    .newest-item-img {
+        width: 52%;
+        margin-right: 29px;
+    }
+
+    .newest-item-slide {
+        height: auto;
+    }
+    .bidding-ending-counter-box ul li span {
+        margin: 0 13px;
+    }
+    .product-details-footer .boxed-btn, .product-details-footer .product-price {
+        padding: 11px;
+        font-size: 16px;
+    }
+
+    /* Explore Prouduct Tab  */
+    .explore-product-tab-area .single-bidding-box {
+        width: 22.8961%;
+        margin: 12px;
+    }
+
+
+
+    /* Form Css */
+    .login-with-btn-icon {
+        padding-right: 7px;
+        padding-left: 14px;
+        font-size: 18px;
+    }
+    .ntf-login-with {
+        font-size: 16px;
+        padding: 17px 11px;
+    }
+    /* Blog css */
+    .single-post-meta.d-flex {
+        display: block !important;
+    }
+    .single-post-date {
+        margin-top: 12px;
+    }
+
+    /* footer */
+    .footer-list > div:nth-child(1) {
+        padding-right: 60px;
+    }
+    .footer-list > div:nth-child(5) {
+        width: 20%;
+    }
+
+}
+
+/* ========================================== */
+/* Medium Layout (lg): 992px. */
+/* ========================================== */
+@media (min-width: 992px) and (max-width: 1201px) { 
+    section {
+        padding: 100px 0;
+    }
+    .nft-main-menu {
+        display: none;
+    }
+
+    .header-bottom-area {
+        padding: 18px 0;
+    }
+    .nft-user-menu-wrapper {
+        right: 88px;
+    }
+    .nft-hero-area {
+        height: 630px;
+    }
+    .hero-title {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .hero-left p {
+        margin-bottom: 35px;
+    }
+    .single-create-sell-item {
+        margin: 12px 0;
+    }
+    .single-top-collection{
+        margin: 12px 0;
+    }
+    /* mobile menu */
+    #mobile-menu-wrap{
+        display: block;
+    }
+    .slicknav_btn {
+        margin-bottom: 28px;
+    }
+    .slicknav_menu {
+        background-color: transparent;
+        width: 320px;
+        position: absolute;
+        right: -223px;
+        z-index: 9999;
+        top: 12px;
+        padding: 0;
+    }
+    /* Explore Product css */
+    .filter-item-box {
+        width: 18%;
+        margin: 0 9.6px;
+    }
+    .explore-product-tab-area .single-bidding-box {
+        width: 30.83495%;
+    }
+    .product-collection-wrapper {
+        margin: 12px 0;
+    }
+
+    /* Product Slider Css */
+    .related-products-slider {
+        margin-top: 50px;
+    }
+
+
+
+    /* footer css */
+    .footer-list > div:nth-child(1) {
+        width: 100%;
+        text-align: center;
+        padding: 0 210px;
+        margin-bottom: 60px;
+    }
+    .footer-list > div:nth-child(2), 
+    .footer-list > div:nth-child(3), 
+    .footer-list > div:nth-child(4),
+    .footer-list > div:nth-child(5) {
+        width: 25%;
+    }
+    /* dashboard css */
+    .dash-right.ms-5 {
+        margin-left: 10px !important;
+    }
+    
+    .profile-file-upload p {
+        font-size: 15px;
+    }
+
+    /* Form login form Css */
+    .login-with-btn-icon {
+        padding-right: 5px;
+        padding-left: 6px;
+        font-size: 15px;
+    }
+    .ntf-login-with {
+        font-size: 14px;
+        padding: 15px 11px;
+    }
+
+    /* Upload Variants css */
+    .upload-variants-img {
+        height: 400px;
+        width: 400px;
+    }
+
+    /* Privacy Policy */
+    .privacy-policy-box {
+        margin: 0px 60px;
+    }
+
+    /* Home 2 Newest Item slider css */
+    .home-2 .newest-item-slide {
+        height: auto;
+        display: block !important;
+    }
+    
+    .home-2 .newest-item-slide .newest-item-img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    .home-2 .slick-slide img {
+        display: inline;
+    }
+    .home-2 .nft-advertisement-box {
+        display: inline-block;
+        width: 49%;
+    }
+}
+/* Tablet Layout (md): 768px. */
+@media (min-width: 768px) and (max-width: 991px) { 
+    
+    #scrollTopBtn {
+        bottom: 15px;
+        right: 15px;
+        padding: 15px;
+        font-size: 22px;
+        height: 60px;
+        width: 60px;
+    }
+    /* Header CSS */
+    .nft-social-icons {
+        display: none;
+    }
+    .nft-promotion-time {
+        margin-right: 85px;
+    }
+    .nft-site-color-mode {
+        display: none;
+    }
+    .header-bottom-area {
+        padding-top: 5px;
+        padding-bottom: 17px;
+    }
+    .nft-hero-area.home-2 {
+        height: 550px;
+    }
+    .nft-hero-area.home-2 .hero-right {
+        margin-left: 5px;
+    }
+    /* mobile menu css */
+    #mobile-menu-wrap{
+        display: block;
+    }
+    .slicknav_menu .slicknav_btn {
+        position: absolute;
+        top: -45px;
+        right: -10px;
+    }
+    .slicknav_menu {
+        width: 342px;
+        top: 52px;
+        left: 119px;
+    }
+    .nft-user-menu-wrapper.active {
+        top: 70px;
+    }
+    .nft-search-bar {
+        margin-right: 50px;
+    }
+    /* Explore product */
+    .filter-item-list-icon {
+        padding-left: 0;
+    }
+
+    /* Create and Sell area css */
+    .single-create-sell-item {
+        margin: 6px 0;
+    }
+
+    /* Product Details page CSS */
+    .product-bid-ending-box {
+        text-align: center;
+    }
+    .product-tab.product-d-tab .tab {
+        margin-left: 0;
+    }
+    .product-details-footer {
+        text-align: center;
+    }
+    .product-name {
+        margin-top: 35px;
+    }
+
+    /* Header css */
+    .header-bottom-area {
+        padding: 9px 0;
+    }
+    .nft-social-icons {
+        margin: 0px 20px;
+    }
+    .nft-site-lang a {
+        padding-right: 2px;
+    }
+    .nft-site-lang {
+        padding: 10px 16px;
+    }
+    .nft-main-menu {
+        display: none;
+    }
+    .nft-search-bar input {
+        width: 170px;
+        height: 35px;
+    }
+    .nft-site-color-mode span {
+        width: 25px;
+        height: 25px;
+        padding-top: 0px;
+        margin: 2px 4px;
+    }
+    .nft-site-color-mode {
+        padding: 2px 1px;
+    }
+    .nft-user-menu-wrapper {
+        right: 35px;
+    }
+    .nft-user span.nft-user, .nft-user span.nft-user-menu {
+        height: 40px;
+        width: 40px;
+    }
+
+    /* Hero area */
+    section {
+        padding: 100px 0;
+    }
+    .hero-title {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    
+    .nft-hero-area {
+        height: 500px;
+    }
+    .hero-left {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    
+    .hero-left p {
+        margin-bottom: 20px;
+    }
+
+    .nft-hero-btn.boxed-btn {
+        padding: 9px 18px;
+        font-size: 15px;
+    }
+
+    /* Create and sell area */
+    .single-create-sell-item {
+        margin: 12px 0;
+    }
+
+    /* Top Collectin area */
+    .single-top-collection {
+        margin: 12px 0;
+    }
+    .product-collection-wrapper {
+        background-color: #262626;
+        padding: 14px;
+        border-radius: 6px;
+        border: 1px solid #414141;
+        margin: 12px 0;
+    }
+
+    /* Upload Variants css */
+    .upload-variants-img {
+        height: 350px;
+        width: 350px;
+    }
+    /* Login, Registration Form CSS */
+    .nft-form-box {
+        padding: 48px;
+    }
+
+    .ntf-login-with {
+        font-size: 16px;
+        padding: 16px 5px;
+    }
+    .login-with-btn-icon {
+        padding-right: 8px;
+        padding-left: 18px;
+        font-size: 17px;
+    }
+    .nft-form-img {
+        display: none;
+    }
+
+    /* Blog Page CSS */
+    .blog-sidebar input[type=text], .blog-sidebar input[type=email], .blog-sidebar input[type=search] {
+        height: 60px;
+        width: 50%;
+    }
+    .search-form button {
+        right: 47%;
+        height: 60px;
+        width: 60px;
+        font-size: 20px;
+    }
+    .subscribe-form input[type=email] {
+        width: 100%;
+    }
+    .blog-sidebar .widget ul li:after {
+        right: auto;
+        left: 170px;
+    }
+    .comment-form {
+        margin-bottom: 50px;
+    }
+    .widget {
+        display: inline-block;
+        width: 49%;
+    }
+    .widget:nth-child(1) {
+        display: block;
+        width: 100%;
+    }
+    .popular-post-info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .blog-sidebar {
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
+    /* Privacy Policy, Support and FAQ */
+    .privacy-policy-box {
+        margin: 0;
+    }
+    .support-and-faq-box {
+        margin-bottom: 50px;
+    }
+
+    /* Breadcrumb Area Css */
+    .breadcrumb-area {
+        height: 320px;
+    }
+    /* Explore product css */
+    .filter-item-box {
+        width: 18.05%;
+        margin: 0 7px;
+    }
+   
+    .filter-item-heading, .filter-item-current, .filter-item-list-dropdown {
+        padding: 7px 20px;
+    }
+
+    /* Dashboard CSS */
+    .nft-box-padding {
+        padding: 25px;
+    }
+    .dashboard-tab .tab-links i {
+        margin-right: 11px;
+    }
+    .dashboard-tab .tab-links {
+        padding: 13px 15px;
+        padding-right: 0;
+    }
+    .dash-left input {
+        height: 45px;
+    }
+    .dashboard-tab .tab-links {
+        padding: 10px 15px;
+    }
+    .dash-right.ms-5 {
+        margin: 0 !important;
+        margin-top: 20px !important;
+    }
+    /* Contact Page css */
+    .single-create-sell-item {
+        padding: 13px;
+    }
+    .item-number {
+        height: 62px;
+        width: 75px;
+    }
+    .item-number span {
+        font-size: 20px;
+    }
+    .single-create-sell-item-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .single-create-sell-item {
+        font-size: 12px;
+    }
+    .single-create-sell-item-icon {
+        margin-top: 27px;
+        margin-bottom: 24px;
+    }
+    /* About Area CSS */
+    .about-img {
+        display: none;
+    }
+    .single-company-info-box {
+        margin: 0 6px;
+        padding: 28px 0;
+    }
+    .company-details-number {
+        font-size: 26px;
+        line-height: 22px;
+        margin-top: 22px;
+    }
+    .single-client-feedback-wrapper {
+        width: 33%;
+        padding: 12px;
+        margin: 0 5px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .single-client-feedback-wrapper p {
+        margin-bottom: 0;
+    }
+    .ceo-img {
+        position: absolute;
+        top: 0;
+    }
+    .client-author-name {
+        font-size: 17px;
+        margin-top: 75px;
+    }
+    .client-feedback-icon {
+        position: absolute;
+        top: 7px;
+    }
+    .client-author-name-box {
+        margin-left: 0;
+    }
+    .client-feedback-description {
+        padding-top: 10px;
+        margin-top: 6px;
+    }
+    /* Footer area */
+    .footer-list > div:nth-child(1) {
+        width: 100%;
+        padding: 0 150px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+
+    .footer-social-icon-title {
+        margin: 15px 0;
+    }
+
+    .footer-list > div {
+        width: 22.66%;
+    }
+    .footer-list > div:nth-child(5) {
+        width: 32%;
+    }
+    .widget-title {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+     /* Home 2 Hero section */
+     .grid-container {
+        gap: 15px;
+    }
+
+    /* Home 2 Top Seller */
+    .nft-advertisement-heading {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+    .nft-advertisement-img {
+        height: 100%;
+    }
+    
+    .nft-advertisement-img img {
+        height: 100%;
+    }
+    
+    .nft-advertisement-box, .nft-advertisement-box-2 {
+        width: 48.2781%;
+        float: left;
+    }
+    
+    .nft-advertisement-box {
+        margin-right: 12px;
+    }
+    
+    .nft-advertisement-box-2 {
+        margin-left: 12px;
+    }
+    .nft-advertisement-content-2 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+  /* Home 2 Explore Product area */
+    .tabcontent .single-bidding-box {
+        margin: 12px;
+        width: 46.668%;
+    }
+
+    .product-tab .section-title {
+        margin-bottom: 25px;
+    }
+    .product-tab {
+        text-align: center;
+    }
+    .product-tab .tab {
+        margin-left: 0px;
+    }
+    .product-tab {
+        display: block !important;
+        text-align: center;
+    }
+    .product-tab-title {
+        margin-bottom: 40px;
+    }
+
+    .nft-advertisement-box {
+        margin-top: 30px;
+    }
+
+    /* Breadcrumb Author css */
+    .author-follower-box li {
+        margin-top: 0;
+    }
+    .author-profile-info {
+        margin-left: 35px;
+    }
+    .author-follower-box li {
+        margin-top: 0;
+    }
+    .author-follower-box li:nth-child(2):after {
+        display: none;
+        opacity: 0;
+    }
+
+
+
+
+}
+/* ================================================= */
+/* Small Mobile Layout: 320px to 767px. */
+/* ================================================= */
+@media only screen and (max-width: 767px) { 
+    body {
+        line-height: 22px;
+    }
+    #scrollTopBtn {
+        bottom: 10px;
+        right: 8px;
+        padding: 10px;
+        font-size: 20px;
+        height: 45px;
+        width: 44px;
+    }
+    .page-title {
+        font-size: 20px;
+        line-height: 45px;
+        margin-bottom: 0;
+    }
+    .cust-order {
+        order: 1;
+    }
+    section {
+        padding: 50px 0;
+    }
+    .sub-title {
+        font-size: 17px;
+        line-height: 0px;
+        margin-bottom: 20px;
+    }
+    .section-title {
+        font-size: 19px;
+    }
+    .section-title .section-title-before {
+        margin-bottom: -2px;
+    }
+    .boxed-btn {
+        padding: 5px 15px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .mb-50 {
+        margin-bottom: 30px;
+    }
+
+    /* Header css */
+    #mobile-menu-wrap{
+        display: block;
+    }
+    .header-top-area {
+        display: none;
+    }
+    .nft-hero-area.home-2 .hero-right {
+        margin-left: 0;
+    }
+
+    .nft-hero-area.home-2 {
+        height: 390px;
+    }
+    .header-bottom-area {
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+    .nft-main-menu {
+        display: none;
+    }
+
+    .nft-search-bar input {
+        height: 35px;
+        width: 150px;
+    }
+    .nft-user-menu-wrapper {
+        right: 18px;
+    }
+    .nft-user-menu-wrapper.active {
+        top: 130px;
+    }
+    .nft-user span.nft-user, .nft-user span.nft-user-menu {
+        height: 35px;
+        width: 35px;
+    }
+    .nft-site-color-mode span {
+        width: 25px;
+        height: 25px;
+        margin: 0px 3px;
+        padding: 0;
+    }
+    .nft-site-color-mode {
+        padding: 5px 6px;
+    }
+
+    .slicknav_menu {
+        overflow: hidden;
+    }
+
+    /* Hero area css */
+    .nft-hero-area{
+        height: auto;
+    }
+    .hero-img-style-2, 
+    .product-collection-box.hero-section {
+        display: none;
+    }
+    .hero-left {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .hero-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .nft-hero-btn.boxed-btn {
+        padding: 5px 14px;
+        font-size: 13px;
+    }
+    .hero-left p {
+        margin-bottom: 20px;
+    }
+
+    .hero-img.text-end {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .nft-hero-btn.style-2 {
+        margin-left: 5px;
+    }
+
+    /* BreadCrumb Area CSS */
+    .breadcrumb-area {
+        height: 83px;
+    }
+    .breadcrumb-img {
+        display: none !important;
+    }
+    .about-img {
+        display: none;
+    }
+    /* Author page BreadCrumb Area CSS */
+
+    .breadcrumb-area.author-breadcrumb-bg {
+        height: auto;
+        padding: 30px 0px;
+    }
+    
+    .author-profile-img {
+        width: 66px;
+    }
+    
+    h4.author-name {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .author-breadcrumb-left.text-end {
+        text-align: left !important;
+        margin-top: 15px;
+    }
+    .author-address {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .author-profile-click-menu {
+        height: 36px;
+        width: 44px;
+        line-height: 36px;
+        margin-left: 10px;
+    }
+    
+
+    /* Upload Variants css */
+    .upload-variants-img {
+        height: 280px;
+        width: 280px;
+        margin: 0 15px;
+        margin-bottom: 30px;
+    }
+
+
+
+    /* About Area CSS */
+    .about-company-content {
+        text-align: center;
+    }
+    .nft-ceo-name p {
+        font-size: 16px;
+    }
+    .nft-ceo-name {
+        margin: 7px 5px 0px 20px;
+    }
+    .ceo-sign {
+        width: 25%;
+        margin-left: 50px;
+    }
+    .nft-ceo-name span {
+        font-size: 12px;
+    }
+    .company-details.d-flex {
+        display: block !important;
+        text-align: center;
+    }
+    .single-company-info-box {
+        width: 100%;
+        margin: 15px auto;
+        padding: 30px 0;
+    }
+    .client-feedback-lists.d-flex {
+        display: block !important;
+    }
+    
+    .single-client-feedback-wrapper {
+        width: 100%;
+        margin: 18px auto;
+    }
+
+    /* Live bidding area */
+    .bidding-box-bg {
+        height: 210px;
+    }
+
+    /* Top Collection area */
+    .single-top-collection {
+        margin: 8px 0;
+    }
+
+    /* Explore Product area */
+    .product-tab .filter-item-box {
+        width: 90%;
+        margin: 10px 20px;
+    }
+    .product-tab {
+        display: block !important;
+    }
+    .product-tab .section-title {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .product-tab .tab button {
+        padding: 7px 13px;
+        margin-left: 8px;
+        margin: 4px;
+        font-size: 12px;
+    }
+    .filter-item-box {
+        display: none;
+    }
+
+    /* Product details Page CSS */
+    .product-details-content {
+        margin-top: 22px;
+    }
+    .newest-item-slider-area .slick-arrow, .related-products-slider .slick-arrow {
+        height: 40px;
+        width: 40px;
+        font-size: 17px;
+        line-height: 43px;
+        right: 30px;
+        top: -60px;
+    }
+    ul.product-counter-timer li {
+        padding: 13px;
+        margin-right: 11px;
+        height: 65px;
+        width: 63px;
+    }
+    /* Blog/Blog Details CSS */
+    .blog-details-title {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .blog-details-footer-meta.d-flex {
+        display: block !important;
+    }
+    
+    .post-tags {
+        margin-bottom: 15px;
+    }
+    .comment-form .boxed-btn {
+        padding: 10px 22px;
+    }
+    
+    .widget-search {
+        margin-top: 60px;
+    }
+    
+    .tags a {
+        padding: 5px 10px;
+        margin: 4px 2px;
+    }
+
+    /* Contact Page css */
+    .single-create-sell-item {
+        margin: 12px;
+    }
+    .privacy-policy-box {
+        margin: 0;
+    }
+    .privacy-policy-box, .support-and-faq-box {
+        padding: 22px;
+        margin-bottom: 50px;
+    }
+    .nft-faq-accordion .accordion-button {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .nft-faq-accordion .accordion-button {
+        padding: 5px 10px;
+    }
+    .nft-faq-accordion .accordion-item {
+        margin-bottom: 18px;
+    }
+
+
+    .nft-faq-accordion .upload-variants-img {
+        height: 174px;
+        width: 95%;
+        margin: 45px 0;
+    }
+    .nft-box-padding {
+        padding: 20px;
+    }
+
+
+    /* All Form CSS */
+    .nft-form-wrapper input, .nft-main-form input {
+        height: 45px;
+    }
+    .blog-sidebar input[type=text], .blog-sidebar input[type=email], .blog-sidebar input[type=search]{
+        height: 50px;
+    }
+    .search-form button {
+        height: 50px;
+        width: 50px;
+        font-size: 18px;
+    }
+    .subscribe-form input[type=email], .subscribe-form button {
+        height: 50px;
+    }
+
+    .nft-form-box {
+        padding: 20px 20px;
+    }
+    .nft-form-button {
+        margin: 9px 0;
+    }
+    .nft-form-title {
+        font-size: 23px;
+    }
+    .ntf-login-with {
+        font-size: 16px;
+        height: 50px;
+        margin: 8px 0;
+    }
+    .login-with-btn-icon {
+        display: inline-block;
+        padding-right: 9px;
+        padding-left: 9px;
+        font-size: 14px;
+    }
+    .nft-form-wrapper {
+        padding: 20px;
+    }
+    .nft-form-img {
+        display: none;
+    }
+
+    /* Create NFT CSS */
+    .create-nft-form-wrapper {
+        margin-bottom: 50px;
+    }
+    .create-nft-title {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    .custom-file-upload {
+        padding: 12px 0;
+    }
+
+    /* Creator page css */
+    .creators-title.d-flex {
+        display: block !important;
+    }
+
+    ul.product-pagination li a {
+        height: 38px;
+        width: 38px;
+        margin: 0px 3px;
+        line-height: 35px;
+    }
+    
+    .creators-title .section-title, .creators-title .boxed-filter-btn {
+        display: block;
+        width: 100%;
+    }
+    .creators-title .section-title {
+        margin-bottom: 20px;
+    }
+
+
+    /* Footer css */
+    .footer-list > div {
+        width: 50% !important;
+    }
+    .footer-widget p {
+        display: none;
+    }
+    a.recent-sold-out {
+        display: block;
+        width: 100%;
+        height: 75px;
+    }
+
+    .footer-list > div:nth-child(1) {
+        padding-right: 0;
+    }
+    .widget-title {
+        font-size: 20px;
+        margin: 30px 0 10px 0;
+    }
+    .footer-widget ul li a {
+        line-height: 25px;
+    }
+
+    .footer-widget ul li a:before {
+        top: 8px;
+    }
+    .footer-list > div:nth-child(5) {
+        display: none;
+    }
+
+    .footer-bottom-left.text-start {
+        text-align: center !important;
+        margin-bottom: 16px;
+    }
+    
+    .footer-bottom-right.text-end {
+        text-align: center !important;
+    }
+
+    /* Home 2 Hero Area CSS */
+    .hero-right {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .grid-container {
+        gap: 10px;
+    }
+
+    /* Home 2 Newest Items area css */
+    .newest-item-slider-area .prev.slick-arrow {
+        right: 71px;
+    }
+    .newest-item-slider-area .slick-arrow {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        line-height: 42px;
+        top: -65px;
+        right: 18px;
+    }
+    .newest-item-slide.d-flex {
+        display: block !important;
+    }
+    
+    .newest-item-img {
+        width: 100%;
+    }
+    
+    .newest-item-img img {
+        width: 100%;
+    }
+
+    .bidding-ending-box {
+        position: absolute;
+        top: -86px;
+        right: 0px;
+        width: 100%;
+        padding: 8px 0;
+    }
+    
+    .newest-item-slide {position: relative;}
+    
+    .newest-item-slide {
+        padding: 15px;
+    }
+    
+    .newest-item-content {
+        margin-left: 0;
+        margin: 16px 0;
+        position: relative;
+    }
+    
+    .bidding-ending-box {
+        position: absolute;
+        top: -86px;
+        right: 0px;
+        width: 100%;
+        padding: 8px 0;
+    }
+    
+    .bidding-ending-counter-box ul li span {
+        margin: 0 11px;
+    }
+    .bidding-ending-counter-number {
+        font-size: 14px;
+    }
+    .bidding-ending-title {
+        display: none !important;
+    }
+    
+    .bidding-ending-counter-box ul li span::before {
+        opacity: 0;
+    }
+
+    
+    .newest-item-author-events {
+        position: absolute;
+        top: 46px;
+        right: 0;
+    }
+    
+    .newest-item-author-events span {
+        display: inline-block;
+        margin: 5px 0;
+        margin-left: 9px;
+    }
+    /* Home 2 Explore Product Tab */
+    .product-tab.d-sm-block {
+        display: block !important;
+    }
+
+    .tabcontent .single-bidding-box {
+        width: 94%;
+    }
+    .product-details-footer .boxed-btn {
+        padding: 15px 21px;
+        line-height: 12px;
+        height: 42px;
+    }
+    .product-price {
+        font-size: 14px;
+        line-height: 13px;
+    }
+    .newest-item-slide {
+        height: auto;
+    }
+
+    .product-collection-wrapper {
+        margin: 8px 0;
+    }
+    
+    /* Dashboard CSS */
+    .dashboard-tab-content {
+        margin-top: 25px;
+    }
+    .dash-right.ms-5 {
+        margin-left: 0 !important;
+        margin-top: 30px;
+    }
+    
+    .profile-file-upload button, .dash-notifications li {
+        height: auto;
+        margin-right: 5px;
+    }
+    .dash-notifications li {
+        margin: 5px 0 ;
+    }
+    .dash-notifications li a img {
+        margin-right: 5px;
+    }
+    .dash-notifications li a {
+        font-size: 12px;
+    }
+    .dash-notifications li span {
+        display: none;
+    }
+    .dash-notifications li a {
+        padding: 10px 0;
+    }
+    .site-color-mode-box button {
+        margin: 6px 0;
+        border-radius: 5px !important;
+    }
+
+    .nft-faq-accordion .accordion-body {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .footer-social-icon-list a {
+        width: 36px;
+        height: 36px;
+        font-size: 17px;
+        line-height: 38px;
+        margin-right: 2px;
+    }
+    .footer-list > div:nth-child(2) .widget-title {
+        margin-top: 0;
+    }
+
+    /* Dashboard CSS */
+    .dashboard-tab .tab-links {
+        padding: 13px 15px;
+        cursor: pointer;
+        width: 46.52%;
+        display: inline-block;
+        margin: 8px 4.62px;
+        font-size: 13px;
+    }
+    .dashboard-tab .tab-links i {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .comment-form .boxed-btn.d-sm-none {
+        display: none !important;
+    }
+    .boxed-btn.d-none.d-sm-block {
+        display: block !important;
+    }
+
+    .upload-variants-img {
+        height: 150px;
+        width: 150px;
+        padding: 15px;
+        margin: 0 7px 25px 7px;
+    }
+
+
+}
+
+/* Large Mobile Layout: 480px. */
+@media (min-width: 520px) and (max-width: 767px) {
+
+     /* Explore Product area */
+     .filter-item-box {
+        width: 46.05%;
+        margin: 10px 10px;
+    }
+
+    .creators-title .section-title, .creators-title .boxed-filter-btn {
+        display: inline-block;
+        width: 49%;
+    }
+
+    ul.product-pagination li a {
+        height: 40px;
+        width: 40px;
+        margin: 0px 3px;
+        line-height: 39px;
+    }
+    .nft-form-box {
+        padding: 30px 35px;
+    }
+    .nft-form-wrapper {
+        padding: 30px;
+    }
+
+    .upload-variants-img {
+        height: 280px;
+        width: 280px;
+        margin: 0 15px;
+        margin-bottom: 30px;
+    }
+    .bidding-ending-title {
+        display: block !important;
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+        font-size: 17px;
+    }
+    .newest-item-img {
+        width: 50%;
+    }
+    .newest-item-img img {
+        width: 100%;
+    }
+    .bidding-ending-box {
+        top: -312px;
+        width: 47%;
+        padding: 94px 0;
+    }
+}
+
+
+
